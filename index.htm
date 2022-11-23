@@ -2,486 +2,486 @@
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
-	-webkit-print-color-adjust: exact;
+-webkit-print-color-adjust: exact;
 }
 * {
-	box-sizing: border-box;
-	-webkit-print-color-adjust: exact;
+box-sizing: border-box;
+-webkit-print-color-adjust: exact;
 }
 
 html,
 body {
-	margin: 0;
-	padding: 0;
+margin: 0;
+padding: 0;
 }
 @media only screen {
-	body {
-		margin: 2em auto;
-		max-width: 900px;
-		color: rgb(55, 53, 47);
-	}
+body {
+margin: 2em auto;
+max-width: 900px;
+color: rgb(55, 53, 47);
+}
 }
 
 body {
-	line-height: 1.5;
-	white-space: pre-wrap;
+line-height: 1.5;
+white-space: pre-wrap;
 }
 
 a,
 a.visited {
-	color: inherit;
-	text-decoration: underline;
+color: inherit;
+text-decoration: underline;
 }
 
 .pdf-relative-link-path {
-	font-size: 80%;
-	color: #444;
+font-size: 80%;
+color: #444;
 }
 
 h1,
 h2,
 h3 {
-	letter-spacing: -0.01em;
-	line-height: 1.2;
-	font-weight: 600;
-	margin-bottom: 0;
+letter-spacing: -0.01em;
+line-height: 1.2;
+font-weight: 600;
+margin-bottom: 0;
 }
 
 .page-title {
-	font-size: 2.5rem;
-	font-weight: 700;
-	margin-top: 0;
-	margin-bottom: 0.75em;
+font-size: 2.5rem;
+font-weight: 700;
+margin-top: 0;
+margin-bottom: 0.75em;
 }
 
 h1 {
-	font-size: 1.875rem;
-	margin-top: 1.875rem;
+font-size: 1.875rem;
+margin-top: 1.875rem;
 }
 
 h2 {
-	font-size: 1.5rem;
-	margin-top: 1.5rem;
+font-size: 1.5rem;
+margin-top: 1.5rem;
 }
 
 h3 {
-	font-size: 1.25rem;
-	margin-top: 1.25rem;
+font-size: 1.25rem;
+margin-top: 1.25rem;
 }
 
 .source {
-	border: 1px solid #ddd;
-	border-radius: 3px;
-	padding: 1.5em;
-	word-break: break-all;
+border: 1px solid #ddd;
+border-radius: 3px;
+padding: 1.5em;
+word-break: break-all;
 }
 
 .callout {
-	border-radius: 3px;
-	padding: 1rem;
+border-radius: 3px;
+padding: 1rem;
 }
 
 figure {
-	margin: 1.25em 0;
-	page-break-inside: avoid;
+margin: 1.25em 0;
+page-break-inside: avoid;
 }
 
 figcaption {
-	opacity: 0.5;
-	font-size: 85%;
-	margin-top: 0.5em;
+opacity: 0.5;
+font-size: 85%;
+margin-top: 0.5em;
 }
 
 mark {
-	background-color: transparent;
+background-color: transparent;
 }
 
 .indented {
-	padding-left: 1.5em;
+padding-left: 1.5em;
 }
 
 hr {
-	background: transparent;
-	display: block;
-	width: 100%;
-	height: 1px;
-	visibility: visible;
-	border: none;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+background: transparent;
+display: block;
+width: 100%;
+height: 1px;
+visibility: visible;
+border: none;
+border-bottom: 1px solid rgba(55, 53, 47, 0.09);
 }
 
 img {
-	max-width: 100%;
+max-width: 100%;
 }
 
 @media only print {
-	img {
-		max-height: 100vh;
-		object-fit: contain;
-	}
+img {
+max-height: 100vh;
+object-fit: contain;
+}
 }
 
 @page {
-	margin: 1in;
+margin: 1in;
 }
 
 .collection-content {
-	font-size: 0.875rem;
+font-size: 0.875rem;
 }
 
 .column-list {
-	display: flex;
-	justify-content: space-between;
+display: flex;
+justify-content: space-between;
 }
 
 .column {
-	padding: 0 1em;
+padding: 0 1em;
 }
 
 .column:first-child {
-	padding-left: 0;
+padding-left: 0;
 }
 
 .column:last-child {
-	padding-right: 0;
+padding-right: 0;
 }
 
 .table_of_contents-item {
-	display: block;
-	font-size: 0.875rem;
-	line-height: 1.3;
-	padding: 0.125rem;
+display: block;
+font-size: 0.875rem;
+line-height: 1.3;
+padding: 0.125rem;
 }
 
 .table_of_contents-indent-1 {
-	margin-left: 1.5rem;
+margin-left: 1.5rem;
 }
 
 .table_of_contents-indent-2 {
-	margin-left: 3rem;
+margin-left: 3rem;
 }
 
 .table_of_contents-indent-3 {
-	margin-left: 4.5rem;
+margin-left: 4.5rem;
 }
 
 .table_of_contents-link {
-	text-decoration: none;
-	opacity: 0.7;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+text-decoration: none;
+opacity: 0.7;
+border-bottom: 1px solid rgba(55, 53, 47, 0.18);
 }
 
 table,
 th,
 td {
-	border: 1px solid rgba(55, 53, 47, 0.09);
-	border-collapse: collapse;
+border: 1px solid rgba(55, 53, 47, 0.09);
+border-collapse: collapse;
 }
 
 table {
-	border-left: none;
-	border-right: none;
+border-left: none;
+border-right: none;
 }
 
 th,
 td {
-	font-weight: normal;
-	padding: 0.25em 0.5em;
-	line-height: 1.5;
-	min-height: 1.5em;
-	text-align: left;
+font-weight: normal;
+padding: 0.25em 0.5em;
+line-height: 1.5;
+min-height: 1.5em;
+text-align: left;
 }
 
 th {
-	color: rgba(55, 53, 47, 0.6);
+color: rgba(55, 53, 47, 0.6);
 }
 
 ol,
 ul {
-	margin: 0;
-	margin-block-start: 0.6em;
-	margin-block-end: 0.6em;
+margin: 0;
+margin-block-start: 0.6em;
+margin-block-end: 0.6em;
 }
 
 li > ol:first-child,
 li > ul:first-child {
-	margin-block-start: 0.6em;
+margin-block-start: 0.6em;
 }
 
 ul > li {
-	list-style: disc;
+list-style: disc;
 }
 
 ul.to-do-list {
-	text-indent: -1.7em;
+text-indent: -1.7em;
 }
 
 ul.to-do-list > li {
-	list-style: none;
+list-style: none;
 }
 
 .to-do-children-checked {
-	text-decoration: line-through;
-	opacity: 0.375;
+text-decoration: line-through;
+opacity: 0.375;
 }
 
 ul.toggle > li {
-	list-style: none;
+list-style: none;
 }
 
 ul {
-	padding-inline-start: 1.7em;
+padding-inline-start: 1.7em;
 }
 
 ul > li {
-	padding-left: 0.1em;
+padding-left: 0.1em;
 }
 
 ol {
-	padding-inline-start: 1.6em;
+padding-inline-start: 1.6em;
 }
 
 ol > li {
-	padding-left: 0.2em;
+padding-left: 0.2em;
 }
 
 .mono ol {
-	padding-inline-start: 2em;
+padding-inline-start: 2em;
 }
 
 .mono ol > li {
-	text-indent: -0.4em;
+text-indent: -0.4em;
 }
 
 .toggle {
-	padding-inline-start: 0em;
-	list-style-type: none;
+padding-inline-start: 0em;
+list-style-type: none;
 }
 
 /* Indent toggle children */
 .toggle > li > details {
-	padding-left: 1.7em;
+padding-left: 1.7em;
 }
 
 .toggle > li > details > summary {
-	margin-left: -1.1em;
+margin-left: -1.1em;
 }
 
 .selected-value {
-	display: inline-block;
-	padding: 0 0.5em;
-	background: rgba(206, 205, 202, 0.5);
-	border-radius: 3px;
-	margin-right: 0.5em;
-	margin-top: 0.3em;
-	margin-bottom: 0.3em;
-	white-space: nowrap;
+display: inline-block;
+padding: 0 0.5em;
+background: rgba(206, 205, 202, 0.5);
+border-radius: 3px;
+margin-right: 0.5em;
+margin-top: 0.3em;
+margin-bottom: 0.3em;
+white-space: nowrap;
 }
 
 .collection-title {
-	display: inline-block;
-	margin-right: 1em;
+display: inline-block;
+margin-right: 1em;
 }
 
 .simple-table {
-	margin-top: 1em;
-	font-size: 0.875rem;
-	empty-cells: show;
+margin-top: 1em;
+font-size: 0.875rem;
+empty-cells: show;
 }
 .simple-table td {
-	height: 29px;
-	min-width: 120px;
+height: 29px;
+min-width: 120px;
 }
 
 .simple-table th {
-	height: 29px;
-	min-width: 120px;
+height: 29px;
+min-width: 120px;
 }
 
 .simple-table-header-color {
-	background: rgb(247, 246, 243);
-	color: black;
+background: rgb(247, 246, 243);
+color: black;
 }
 .simple-table-header {
-	font-weight: 500;
+font-weight: 500;
 }
 
 time {
-	opacity: 0.5;
+opacity: 0.5;
 }
 
 .icon {
-	display: inline-block;
-	max-width: 1.2em;
-	max-height: 1.2em;
-	text-decoration: none;
-	vertical-align: text-bottom;
-	margin-right: 0.5em;
+display: inline-block;
+max-width: 1.2em;
+max-height: 1.2em;
+text-decoration: none;
+vertical-align: text-bottom;
+margin-right: 0.5em;
 }
 
 img.icon {
-	border-radius: 3px;
+border-radius: 3px;
 }
 
 .user-icon {
-	width: 1.5em;
-	height: 1.5em;
-	border-radius: 100%;
-	margin-right: 0.5rem;
+width: 1.5em;
+height: 1.5em;
+border-radius: 100%;
+margin-right: 0.5rem;
 }
 
 .user-icon-inner {
-	font-size: 0.8em;
+font-size: 0.8em;
 }
 
 .text-icon {
-	border: 1px solid #000;
-	text-align: center;
+border: 1px solid #000;
+text-align: center;
 }
 
 .page-cover-image {
-	display: block;
-	object-fit: cover;
-	width: 100%;
-	max-height: 30vh;
+display: block;
+object-fit: cover;
+width: 100%;
+max-height: 30vh;
 }
 
 .page-header-icon {
-	font-size: 3rem;
-	margin-bottom: 1rem;
+font-size: 3rem;
+margin-bottom: 1rem;
 }
 
 .page-header-icon-with-cover {
-	margin-top: -0.72em;
-	margin-left: 0.07em;
+margin-top: -0.72em;
+margin-left: 0.07em;
 }
 
 .page-header-icon img {
-	border-radius: 3px;
+border-radius: 3px;
 }
 
 .link-to-page {
-	margin: 1em 0;
-	padding: 0;
-	border: none;
-	font-weight: 500;
+margin: 1em 0;
+padding: 0;
+border: none;
+font-weight: 500;
 }
 
 p > .user {
-	opacity: 0.5;
+opacity: 0.5;
 }
 
 td > .user,
 td > time {
-	white-space: nowrap;
+white-space: nowrap;
 }
 
 input[type="checkbox"] {
-	transform: scale(1.5);
-	margin-right: 0.6em;
-	vertical-align: middle;
+transform: scale(1.5);
+margin-right: 0.6em;
+vertical-align: middle;
 }
 
 p {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
 }
 
 .image {
-	border: none;
-	margin: 1.5em 0;
-	padding: 0;
-	border-radius: 0;
-	text-align: center;
+border: none;
+margin: 1.5em 0;
+padding: 0;
+border-radius: 0;
+text-align: center;
 }
 
 .code,
 code {
-	background: rgba(135, 131, 120, 0.15);
-	border-radius: 3px;
-	padding: 0.2em 0.4em;
-	border-radius: 3px;
-	font-size: 85%;
-	tab-size: 2;
+background: rgba(135, 131, 120, 0.15);
+border-radius: 3px;
+padding: 0.2em 0.4em;
+border-radius: 3px;
+font-size: 85%;
+tab-size: 2;
 }
 
 code {
-	color: #eb5757;
+color: #eb5757;
 }
 
 .code {
-	padding: 1.5em 1em;
+padding: 1.5em 1em;
 }
 
 .code-wrap {
-	white-space: pre-wrap;
-	word-break: break-all;
+white-space: pre-wrap;
+word-break: break-all;
 }
 
 .code > code {
-	background: none;
-	padding: 0;
-	font-size: 100%;
-	color: inherit;
+background: none;
+padding: 0;
+font-size: 100%;
+color: inherit;
 }
 
 blockquote {
-	font-size: 1.25em;
-	margin: 1em 0;
-	padding-left: 1em;
-	border-left: 3px solid rgb(55, 53, 47);
+font-size: 1.25em;
+margin: 1em 0;
+padding-left: 1em;
+border-left: 3px solid rgb(55, 53, 47);
 }
 
 .bookmark {
-	text-decoration: none;
-	max-height: 8em;
-	padding: 0;
-	display: flex;
-	width: 100%;
-	align-items: stretch;
+text-decoration: none;
+max-height: 8em;
+padding: 0;
+display: flex;
+width: 100%;
+align-items: stretch;
 }
 
 .bookmark-title {
-	font-size: 0.85em;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	height: 1.75em;
-	white-space: nowrap;
+font-size: 0.85em;
+overflow: hidden;
+text-overflow: ellipsis;
+height: 1.75em;
+white-space: nowrap;
 }
 
 .bookmark-text {
-	display: flex;
-	flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .bookmark-info {
-	flex: 4 1 180px;
-	padding: 12px 14px 14px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+flex: 4 1 180px;
+padding: 12px 14px 14px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 .bookmark-image {
-	width: 33%;
-	flex: 1 1 180px;
-	display: block;
-	position: relative;
-	object-fit: cover;
-	border-radius: 1px;
+width: 33%;
+flex: 1 1 180px;
+display: block;
+position: relative;
+object-fit: cover;
+border-radius: 1px;
 }
 
 .bookmark-description {
-	color: rgba(55, 53, 47, 0.6);
-	font-size: 0.75em;
-	overflow: hidden;
-	max-height: 4.5em;
-	word-break: break-word;
+color: rgba(55, 53, 47, 0.6);
+font-size: 0.75em;
+overflow: hidden;
+max-height: 4.5em;
+word-break: break-word;
 }
 
 .bookmark-href {
-	font-size: 0.75em;
-	margin-top: 0.25em;
+font-size: 0.75em;
+margin-top: 0.25em;
 }
 
 .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
@@ -505,137 +505,137 @@ blockquote {
 .pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
 .pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
 .highlight-default {
-	color: rgba(55, 53, 47, 1);
+color: rgba(55, 53, 47, 1);
 }
 .highlight-gray {
-	color: rgba(120, 119, 116, 1);
-	fill: rgba(120, 119, 116, 1);
+color: rgba(120, 119, 116, 1);
+fill: rgba(120, 119, 116, 1);
 }
 .highlight-brown {
-	color: rgba(159, 107, 83, 1);
-	fill: rgba(159, 107, 83, 1);
+color: rgba(159, 107, 83, 1);
+fill: rgba(159, 107, 83, 1);
 }
 .highlight-orange {
-	color: rgba(217, 115, 13, 1);
-	fill: rgba(217, 115, 13, 1);
+color: rgba(217, 115, 13, 1);
+fill: rgba(217, 115, 13, 1);
 }
 .highlight-yellow {
-	color: rgba(203, 145, 47, 1);
-	fill: rgba(203, 145, 47, 1);
+color: rgba(203, 145, 47, 1);
+fill: rgba(203, 145, 47, 1);
 }
 .highlight-teal {
-	color: rgba(68, 131, 97, 1);
-	fill: rgba(68, 131, 97, 1);
+color: rgba(68, 131, 97, 1);
+fill: rgba(68, 131, 97, 1);
 }
 .highlight-blue {
-	color: rgba(51, 126, 169, 1);
-	fill: rgba(51, 126, 169, 1);
+color: rgba(51, 126, 169, 1);
+fill: rgba(51, 126, 169, 1);
 }
 .highlight-purple {
-	color: rgba(144, 101, 176, 1);
-	fill: rgba(144, 101, 176, 1);
+color: rgba(144, 101, 176, 1);
+fill: rgba(144, 101, 176, 1);
 }
 .highlight-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
+color: rgba(193, 76, 138, 1);
+fill: rgba(193, 76, 138, 1);
 }
 .highlight-red {
-	color: rgba(212, 76, 71, 1);
-	fill: rgba(212, 76, 71, 1);
+color: rgba(212, 76, 71, 1);
+fill: rgba(212, 76, 71, 1);
 }
 .highlight-gray_background {
-	background: rgba(241, 241, 239, 1);
+background: rgba(241, 241, 239, 1);
 }
 .highlight-brown_background {
-	background: rgba(244, 238, 238, 1);
+background: rgba(244, 238, 238, 1);
 }
 .highlight-orange_background {
-	background: rgba(251, 236, 221, 1);
+background: rgba(251, 236, 221, 1);
 }
 .highlight-yellow_background {
-	background: rgba(251, 243, 219, 1);
+background: rgba(251, 243, 219, 1);
 }
 .highlight-teal_background {
-	background: rgba(237, 243, 236, 1);
+background: rgba(237, 243, 236, 1);
 }
 .highlight-blue_background {
-	background: rgba(231, 243, 248, 1);
+background: rgba(231, 243, 248, 1);
 }
 .highlight-purple_background {
-	background: rgba(244, 240, 247, 0.8);
+background: rgba(244, 240, 247, 0.8);
 }
 .highlight-pink_background {
-	background: rgba(249, 238, 243, 0.8);
+background: rgba(249, 238, 243, 0.8);
 }
 .highlight-red_background {
-	background: rgba(253, 235, 236, 1);
+background: rgba(253, 235, 236, 1);
 }
 .block-color-default {
-	color: inherit;
-	fill: inherit;
+color: inherit;
+fill: inherit;
 }
 .block-color-gray {
-	color: rgba(120, 119, 116, 1);
-	fill: rgba(120, 119, 116, 1);
+color: rgba(120, 119, 116, 1);
+fill: rgba(120, 119, 116, 1);
 }
 .block-color-brown {
-	color: rgba(159, 107, 83, 1);
-	fill: rgba(159, 107, 83, 1);
+color: rgba(159, 107, 83, 1);
+fill: rgba(159, 107, 83, 1);
 }
 .block-color-orange {
-	color: rgba(217, 115, 13, 1);
-	fill: rgba(217, 115, 13, 1);
+color: rgba(217, 115, 13, 1);
+fill: rgba(217, 115, 13, 1);
 }
 .block-color-yellow {
-	color: rgba(203, 145, 47, 1);
-	fill: rgba(203, 145, 47, 1);
+color: rgba(203, 145, 47, 1);
+fill: rgba(203, 145, 47, 1);
 }
 .block-color-teal {
-	color: rgba(68, 131, 97, 1);
-	fill: rgba(68, 131, 97, 1);
+color: rgba(68, 131, 97, 1);
+fill: rgba(68, 131, 97, 1);
 }
 .block-color-blue {
-	color: rgba(51, 126, 169, 1);
-	fill: rgba(51, 126, 169, 1);
+color: rgba(51, 126, 169, 1);
+fill: rgba(51, 126, 169, 1);
 }
 .block-color-purple {
-	color: rgba(144, 101, 176, 1);
-	fill: rgba(144, 101, 176, 1);
+color: rgba(144, 101, 176, 1);
+fill: rgba(144, 101, 176, 1);
 }
 .block-color-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
+color: rgba(193, 76, 138, 1);
+fill: rgba(193, 76, 138, 1);
 }
 .block-color-red {
-	color: rgba(212, 76, 71, 1);
-	fill: rgba(212, 76, 71, 1);
+color: rgba(212, 76, 71, 1);
+fill: rgba(212, 76, 71, 1);
 }
 .block-color-gray_background {
-	background: rgba(241, 241, 239, 1);
+background: rgba(241, 241, 239, 1);
 }
 .block-color-brown_background {
-	background: rgba(244, 238, 238, 1);
+background: rgba(244, 238, 238, 1);
 }
 .block-color-orange_background {
-	background: rgba(251, 236, 221, 1);
+background: rgba(251, 236, 221, 1);
 }
 .block-color-yellow_background {
-	background: rgba(251, 243, 219, 1);
+background: rgba(251, 243, 219, 1);
 }
 .block-color-teal_background {
-	background: rgba(237, 243, 236, 1);
+background: rgba(237, 243, 236, 1);
 }
 .block-color-blue_background {
-	background: rgba(231, 243, 248, 1);
+background: rgba(231, 243, 248, 1);
 }
 .block-color-purple_background {
-	background: rgba(244, 240, 247, 0.8);
+background: rgba(244, 240, 247, 0.8);
 }
 .block-color-pink_background {
-	background: rgba(249, 238, 243, 0.8);
+background: rgba(249, 238, 243, 0.8);
 }
 .block-color-red_background {
-	background: rgba(253, 235, 236, 1);
+background: rgba(253, 235, 236, 1);
 }
 .select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
 .select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
@@ -649,37 +649,37 @@ blockquote {
 .select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
 
 .checkbox {
-	display: inline-flex;
-	vertical-align: text-bottom;
-	width: 16;
-	height: 16;
-	background-size: 16px;
-	margin-left: 2px;
-	margin-right: 5px;
+display: inline-flex;
+vertical-align: text-bottom;
+width: 16;
+height: 16;
+background-size: 16px;
+margin-left: 2px;
+margin-right: 5px;
 }
 
 .checkbox-on {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 
 .checkbox-off {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
-	
+
 </style></head><body><article id="30c4d2aa-57fe-4226-97e8-3bba00827e0c" class="page serif"><header><h1 class="page-title"></h1></header><div class="page-body"><div id="63643f9a-098a-4086-9569-3e5f9d2a468d" class="column-list"><div id="a5620820-d50c-430f-baf9-797c762f0e62" style="width:62.5%" class="column"><h2 id="8c8eacc8-fa07-4b84-843e-774ccc8e9917" class="">Yiheng Shu (舒意恒)</h2><p id="3a20ac0d-6f59-4e98-8307-04c73899e692" class=""><strong>Graduate Student, Nanjing University
 </strong>Nanjing University Xianlin Campus, Nanjing, China
 yhshu [ at ] smail.nju.edu.cn</p><p id="d3a9fcd2-f6dc-45b8-a9dd-e2453aa4de1e" class="">[<a href="https://scholar.google.com/citations?user=H63aXLcAAAAJ&amp;hl=zh-CN">Google Scholar</a>] [<a href="https://dblp.org/pid/239/6116.html">DBLP</a>] [<a href="https://www.semanticscholar.org/author/Yiheng-Shu/1406331721">Semantic Scholar</a>] [<a href="https://github.com/yhshu">GitHub</a>] [<a href="https://twitter.com/YihengShu">Twitter</a>]
-[<a href="https://yihengshu.github.io/homepage/Yiheng_Shu_Nanjing_University_C.V.pdf">C.V.</a>] [<a href="https://yihengshu.github.io/homepage/Yiheng_Shu___Statement_of_Purpose.pdf">Research Statement</a>]</p></div><div id="a3b3694f-ccde-4e9e-b970-fb4fe501e17c" style="width:37.50000000000003%" class="column"><figure id="6d6ceb32-9b61-4691-a9c1-827a35fcece5" class="image"><a href="https://raw.githubusercontent.com/yihengshu/yihengshu.github.io/main/homepage/homepage.jpeg"><img style="width:120px" src="https://raw.githubusercontent.com/yihengshu/yihengshu.github.io/main/homepage/homepage.jpeg"/></a></figure></div></div><hr id="cc324685-589c-4870-a63b-a40721b77e77"/><h1 id="f49cb0d0-85a1-4d5f-98b1-625c2040045e" class="">About Me</h1><p id="e9536071-b399-48a7-90ad-b62fdc1f9665" class="">I&#x27;m a third-year graduate student (2020-2023) in the <a href="http://ws.nju.edu.cn">Websoft group</a> at the <a href="https://cs.nju.edu.cn/main.htm">Department of Computer Science &amp; Technology</a>, <a href="https://www.nju.edu.cn">Nanjing University</a>, advised by <a href="http://ws.nju.edu.cn/~yzqu">Prof. Yuzhong Qu</a>. </p><p id="a913b66c-74b5-4fcc-8129-c4709d83ae31" class="">I have been a research intern of <a href="https://www.microsoft.com/en-us/research/group/knowledge-computing/">KC group, Microsoft Research Asia</a> since Feb. 2022, advised by researcher <a href="https://www.microsoft.com/en-us/research/people/zhiwyu/">Zhiwei Yu</a>. </p><p id="5523e9e6-e95b-485c-858e-0a80f8607e19" class="">I received my B.Sci. degree in <a href="http://sc.neu.edu.cn/">Software College</a> of <a href="http://english.neu.edu.cn/">Northeastern University</a>, Shenyang, China in 2020. I was advised by <a href="https://guoguibing.github.io/">Prof. Guibing Guo</a> and <a href="http://www.cse.neu.edu.cn/2019/0311/c6641a157477/page.htm">Prof. Gang Wu</a>.</p><p id="8041930c-a7c6-4b29-bed4-05495db5ae15" class=""><strong>[Research Interests]</strong> My research interests include question answering (QA) and knowledge graph (KG). Currently, I mainly focus on knowledge base question answering (<strong>KBQA</strong>) with semantic parsing-based methods, attempting to address challenges such as generalization and data scarcity. I have also conducted some research about recommender systems.</p><p id="6ca8d947-47ca-43c6-bd93-b8a1176ed698" class=""><strong>[Community Contributions] </strong>I serve as a member of <a href="https://github.com/MLNLP-World">MLNLP</a>, a large AI community in China. Our recent works include <a href="https://github.com/MLNLP-World/Top-Conference-WeChat-Group">MLNLP/Top-Conference-WeChat-Group</a> and <a href="https://github.com/MLNLP-World/Paper_Writing_Tips">MLNLP/Paper-Writing-Tips</a> (~1.9k GitHub stars) for students and research beginners.</p><h1 id="65bb802e-3da3-42ba-aaa6-7dd020858d22" class="">Publications</h1><h2 id="b55d83ac-daec-4541-94d5-8daacb650285" class="">2022</h2><ul id="6f7ce6b4-a6a5-43f6-a3bd-dcd468954b83" class="bulleted-list"><li style="list-style-type:disc"><strong>[AAAI’23] </strong>Question Decomposition Tree for Answering Complex Questions over Knowledge Bases
+[<a href="https://yihengshu.github.io/homepage/Yiheng_Shu_Nanjing_University_C.V.pdf">C.V.</a>] [<a href="https://yihengshu.github.io/homepage/Yiheng_Shu___Statement_of_Purpose.pdf">Research Statement</a>]</p></div><div id="a3b3694f-ccde-4e9e-b970-fb4fe501e17c" style="width:37.50000000000003%" class="column"><figure id="6d6ceb32-9b61-4691-a9c1-827a35fcece5" class="image"><a href="https://raw.githubusercontent.com/yihengshu/yihengshu.github.io/main/homepage/homepage.jpeg"><img style="width:120px" src="https://raw.githubusercontent.com/yihengshu/yihengshu.github.io/main/homepage/homepage.jpeg"/></a></figure></div></div><hr id="cc324685-589c-4870-a63b-a40721b77e77"/><h1 id="f49cb0d0-85a1-4d5f-98b1-625c2040045e" class="">About Me</h1><p id="e9536071-b399-48a7-90ad-b62fdc1f9665" class="">I&#x27;m a third-year graduate student (2020-2023) in the <a href="http://ws.nju.edu.cn">Websoft group</a> at the <a href="https://cs.nju.edu.cn/main.htm">Department of Computer Science &amp; Technology</a>, <a href="https://www.nju.edu.cn">Nanjing University</a>, advised by <a href="http://ws.nju.edu.cn/~yzqu">Prof. Yuzhong Qu</a>. </p><p id="a913b66c-74b5-4fcc-8129-c4709d83ae31" class="">I have been a research intern of <a href="https://www.microsoft.com/en-us/research/group/knowledge-computing/">KC group, Microsoft Research Asia</a> since Feb. 2022, advised by researcher <a href="https://www.microsoft.com/en-us/research/people/zhiwyu/">Zhiwei Yu</a>. </p><p id="5523e9e6-e95b-485c-858e-0a80f8607e19" class="">I received my B.Sci. degree in <a href="http://sc.neu.edu.cn/">Software College</a> of <a href="http://english.neu.edu.cn/">Northeastern University</a>, Shenyang, China in 2020. I was advised by <a href="https://guoguibing.github.io/">Prof. Guibing Guo</a> and <a href="http://www.cse.neu.edu.cn/2019/0311/c6641a157477/page.htm">Prof. Gang Wu</a>.</p><p id="8041930c-a7c6-4b29-bed4-05495db5ae15" class=""><strong>[Research Interests]</strong> My research interests include question answering (QA) and knowledge graph (KG). Currently, I mainly focus on knowledge base question answering (<strong>KBQA</strong>) with semantic parsing-based methods, attempting to address challenges such as generalization and data scarcity. I have also conducted some research about recommender systems.</p><p id="6ca8d947-47ca-43c6-bd93-b8a1176ed698" class=""><strong>[Community Contributions] </strong>I serve as a member of <a href="https://github.com/MLNLP-World">MLNLP</a>, a large AI community in China. Our recent works include <a href="https://github.com/MLNLP-World/Top-Conference-WeChat-Group">MLNLP/Top-Conference-WeChat-Group</a> and <a href="https://github.com/MLNLP-World/Paper_Writing_Tips">MLNLP/Paper-Writing-Tips</a> (~1.9k GitHub stars) for students and research beginners.</p><h1 id="65bb802e-3da3-42ba-aaa6-7dd020858d22" class="">Publications</h1><ul id="6f7ce6b4-a6a5-43f6-a3bd-dcd468954b83" class="bulleted-list"><li style="list-style-type:disc"><strong>[AAAI’23] </strong>Question Decomposition Tree for Answering Complex Questions over Knowledge Bases
 <mark class="highlight-gray">Xiang Huang, Sitao Cheng, </mark>Yiheng Shu<mark class="highlight-gray">, Yuheng Bao, Yuzhong Qu</mark></li></ul><ul id="bdec0689-6542-4fed-861c-be4d973b89bd" class="bulleted-list"><li style="list-style-type:disc"><strong>[EMNLP’22]</strong><mark class="highlight-gray"> </mark>TIARA: Multi-grained Retrieval for Robust Question Answering over Large Knowledge Base
 Yiheng Shu<mark class="highlight-gray">, Zhiwei Yu, Yuhan Li, Börje F. Karlsson, Tingting Ma, Yuzhong Qu, Chin-Yew Lin
 </mark>[<a href="https://arxiv.org/abs/2210.12925">PDF</a>] [<a href="https://github.com/microsoft/KC/tree/main/papers/TIARA">code</a>] [<a href="https://yihengshu.github.io/homepage/EMNLP22poster.pdf">poster</a>] [<a href="https://yihengshu.github.io/homepage/EMNLP22slides.pdf">slides</a>] [<a href="https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-11-04/fr03tjr/EMNLP22.mp4">video</a>] [BibTeX]</li></ul><ul id="fcdca193-d5b4-4b86-bce7-a1be9cc0802d" class="bulleted-list"><li style="list-style-type:disc"><strong>[COLING’22]</strong><mark class="highlight-gray"> </mark>Logical Form Generation via Multi-task Learning for Complex Question Answering over Knowledge Bases
 <mark class="highlight-gray">Xixin Hu, Xuan Wu, </mark>Yiheng Shu<mark class="highlight-gray">, Yuzhong Qu</mark>
-[<a href="https://aclanthology.org/2022.coling-1.145/">PDF</a>] [<a href="https://github.com/HXX97/GMT-KBQA">code</a>] [<a href="https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-09-23/ff53s0y/1216_GMTKBQA_presentation.pdf">slides</a>] [<a href="https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-09-23/8y23sus/1216_GMTKBQA_video.mp4">video</a>] [<a href="https://aclanthology.org/2022.coling-1.145.bib">BibTeX</a>]</li></ul><h2 id="cbbb8a0b-8ffc-455d-b0a3-a8caa1221df4" class="">Before 2022</h2><ul id="5e738168-7261-48aa-8349-68d6a4c20013" class="bulleted-list"><li style="list-style-type:disc"><strong>[ISWC’21] </strong>EDG-based Question Decomposition for Complex Question Answering over Knowledge Bases
+[<a href="https://aclanthology.org/2022.coling-1.145/">PDF</a>] [<a href="https://github.com/HXX97/GMT-KBQA">code</a>] [<a href="https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-09-23/ff53s0y/1216_GMTKBQA_presentation.pdf">slides</a>] [<a href="https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-09-23/8y23sus/1216_GMTKBQA_video.mp4">video</a>] [<a href="https://aclanthology.org/2022.coling-1.145.bib">BibTeX</a>]</li></ul><ul id="5e738168-7261-48aa-8349-68d6a4c20013" class="bulleted-list"><li style="list-style-type:disc"><strong>[ISWC’21] </strong>EDG-based Question Decomposition for Complex Question Answering over Knowledge Bases
 <mark class="highlight-gray">Xixin Hu, </mark>Yiheng Shu<mark class="highlight-gray">, Xiang Huang, Yuzhong Qu</mark>
 [<a href="https://www.researchgate.net/profile/Xixin-Hu/publication/354925951_EDG-Based_Question_Decomposition_for_Complex_Question_Answering_over_Knowledge_Bases/links/63023efae3c7de4c3472860d/EDG-Based-Question-Decomposition-for-Complex-Question-Answering-over-Knowledge-Bases.pdf">PDF</a>] [<a href="http://github.com/HXX97/EDGQA">code</a>] [<a href="http://edgqa.github.io">intro</a>] [<a href="http://videolectures.net/iswc2021_1a_question_decomposition/">video</a>] [<a href="https://link.springer.com/chapter/10.1007/978-3-030-88361-4_8">Springer Link</a>] [<a href="https://dblp.org/rec/conf/semweb/HuSHQ21.html?view=bibtex">BibTeX</a>]</li></ul><ul id="d3e62a37-cfc8-4166-8b2d-194f06a91e2b" class="bulleted-list"><li style="list-style-type:disc"><strong>[TOIS’20]</strong> Deep Learning for Sequential Recommendation: Algorithms, Influential Factors, and Evaluations
 <mark class="highlight-gray">Hui Fang, Danning Zhang, </mark>Yiheng Shu<mark class="highlight-gray">, Guibing Guo
 </mark>[<a href="https://arxiv.org/abs/1905.01997">PDF</a>] [<a href="https://github.com/sttich/dl-recommendation">code</a>] [<a href="https://dl.acm.org/doi/10.1145/3426723">ACM Library</a>] [<a href="https://dblp.org/rec/journals/tois/FangZSG20.html?view=bibtex">BibTeX</a>]</li></ul><h2 id="983bb4bc-7052-4beb-9062-671c978399a4" class="">Tutorial</h2><ul id="aaebff7e-882c-42ae-b6be-d9e843037b61" class="bulleted-list"><li style="list-style-type:disc"><strong>[ICWE’19 tutorial]</strong> Deep Learning-based Sequential Recommender Systems: Concepts, Algorithms, and Evaluations
 <mark class="highlight-gray">Hui Fang, Danning Zhang, Guibing Guo, </mark>Yiheng Shu
 [<a href="http://web.geni-pco.com/icwe2019/tutorial2_DL-based_rs.pdf">slides</a>] [<a href="https://icwe2019.webengineering.org/program_tutorials/">intro</a>] [<a href="https://link.springer.com/chapter/10.1007/978-3-030-19274-7_47">Springer Link</a>] [<a href="https://dblp.org/rec/conf/icwe/0002GZS19.html?view=bibtex">BibTeX</a>]</li></ul><h1 id="f6109526-41b3-48af-8aff-710b7e5569ec" class="">Awards &amp; Honors</h1><ul id="166443f1-8e9f-42c4-8938-2c2e9eebe91a" class="bulleted-list"><li style="list-style-type:disc">Yingcai Scholarship, <mark class="highlight-gray">Nanjing University, 2022</mark></li></ul><ul id="35443d97-0d6e-4e17-b4bf-2595564b6e14" class="bulleted-list"><li style="list-style-type:disc">First-class Academic Scholarship for Master Students, <mark class="highlight-gray">Nanjing University, 2020-2022</mark></li></ul><ul id="929ef68f-685e-43e9-9907-d6432a30b4d5" class="bulleted-list"><li style="list-style-type:disc">Provincial Excellent Graduates,<mark class="highlight-gray"> Education Department of Liaoning Province, 2020</mark></li></ul><ul id="7cf3bf87-d46b-4d73-b25d-e63ad1cdb9e3" class="bulleted-list"><li style="list-style-type:disc">MCM/ICM Meritorious Winner, <mark class="highlight-gray">COMAP, 2019</mark></li></ul><ul id="6b4d41c0-baf4-45b0-bccd-66630b8f08e8" class="bulleted-list"><li style="list-style-type:disc">Suzhou Industrial Park Scholarship, <mark class="highlight-gray">Northeastern University, 2019</mark></li></ul><ul id="f51c3bca-9d57-4ed6-b746-4c2f96e93b93" class="bulleted-list"><li style="list-style-type:disc">Pacemaker to Excellent Students, <mark class="highlight-gray">Northeastern University, 2018</mark></li></ul><ul id="24908c8a-f427-4774-9c4e-caa8918a794e" class="bulleted-list"><li style="list-style-type:disc">National Scholarship, <mark class="highlight-gray">Ministry of Education of the P.R. China, 2018</mark></li></ul><p id="600f4492-5ec1-45c6-a03e-6b36b6119bc4" class="">
-</p><p id="e2cc29bb-0a97-485a-921e-afb852f4d4da" class="block-color-gray"><em>Last modified: 2022/11/20</em></p><p id="b71641c1-caee-433c-b33b-13217769f9e3" class="">
+</p><p id="e2cc29bb-0a97-485a-921e-afb852f4d4da" class="block-color-gray"><em>Last modified: 2022/11/23</em></p><p id="b71641c1-caee-433c-b33b-13217769f9e3" class="">
 </p></div></article></body></html>

@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yiheng Shu - Homepage"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -25,7 +25,6 @@ I'm a third-year graduate student in the [Websoft research group](http://ws.nju.
 - **[AAAI’23]** Question Decomposition Tree for Answering Complex Questions over Knowledge Bases  
 Xiang Huang, Sitao Cheng, **Yiheng Shu**, Yuheng Bao, Yuzhong Qu  
 [[code](https://github.com/cdhx/QDTQA)]
-
 - **[EMNLP’22]** TIARA: Multi-grained Retrieval for Robust Question Answering over Large Knowledge Base  
 **Yiheng Shu**, Zhiwei Yu, Yuhan Li, Börje F. Karlsson, Tingting Ma, Yuzhong Qu, Chin-Yew Lin  
 [[PDF](https://arxiv.org/abs/2210.12925)]
@@ -36,7 +35,6 @@ Xiang Huang, Sitao Cheng, **Yiheng Shu**, Yuheng Bao, Yuzhong Qu
 [[video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-11-04/fr03tjr/EMNLP22.mp4)] 
 [[ACL Anthology](https://aclanthology.org/2022.emnlp-main.555/)]
 [[BibTeX](https://aclanthology.org/2022.emnlp-main.555.bib)]
-
 - **[COLING’22]** Logical Form Generation via Multi-task Learning for Complex Question Answering over Knowledge Bases  
 Xixin Hu, Xuan Wu, **Yiheng Shu**, Yuzhong Qu  
 [[PDF](https://aclanthology.org/2022.coling-1.145.pdf)] 
@@ -45,7 +43,6 @@ Xixin Hu, Xuan Wu, **Yiheng Shu**, Yuzhong Qu
 [[video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-09-23/8y23sus/1216_GMTKBQA_video.mp4)] 
 [[ACL Anthology](https://aclanthology.org/2022.coling-1.145/)] 
 [[BibTeX](https://aclanthology.org/2022.coling-1.145.bib)]
-
 - **[ISWC’21]** EDG-based Question Decomposition for Complex Question Answering over Knowledge Bases  
 Xixin Hu, **Yiheng Shu**, Xiang Huang, Yuzhong Qu  
 [[PDF](https://www.researchgate.net/profile/Xixin-Hu/publication/354925951_EDG-Based_Question_Decomposition_for_Complex_Question_Answering_over_Knowledge_Bases/links/63023efae3c7de4c3472860d/EDG-Based-Question-Decomposition-for-Complex-Question-Answering-over-Knowledge-Bases.pdf)] 

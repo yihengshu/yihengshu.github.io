@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Yiheng Shu"
-  avatar           : "files/homepage.jpeg"
+  avatar           : "https://yihengshu.github.io/files/homepage.jpeg"
   bio              : "Graduate Student @ Nanjing University"
   location         : "Nanjing, China"
   employer         :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/shuyh/"
+  linkedin         : "shuyh"
   orcid            : "http://orcid.org/0000-0002-7536-2503"
   pinterest        :
   soundcloud       :
@@ -115,6 +115,10 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  huggingface      : "yhshu"
+  dblp             : "https://dblp.org/pid/239/6116.html"
+  cv               : "https://yihengshu.github.io/files/Yiheng_Shu_Nanjing_University_C.V.pdf"
+
 
 
 # Reading Files

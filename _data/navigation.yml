@@ -4,10 +4,10 @@ main:
   #   url: /publications/
 
   - title: "Awards & Honors"
-      url: /awards_honors
+    url: /awards_honors/
   
   - title: "Resources"
-      url: /resources
+    url: /resources/
 
   # - title: "CV"
   #   url: /cv/

@@ -106,14 +106,14 @@
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
-      {% if author.googlescholar %}
+      {% if author.semanticscholar %}
         <li><a href="{{ author.semanticscholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Semantic Scholar</a></li>
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
       {% endif %}
       {% if author.dblp %}
-        <li><a href="{{ author.dblp }}"><i class="fa-book"></i> ORCID</a></li>
+        <li><a href="{{ author.dblp }}"><i class="fa-book"></i> DBLP</a></li>
       {% endif %}
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
@@ -125,10 +125,10 @@
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
       {% endif %}
       {% if author.huggingface %}
-        <li><a href="https://huggingface.co/{{ author.huggingface }}"><i class="fa-face-smiling-hands" aria-hidden="true"></i> HuggingFace</a></li>
+        <li><a href="https://huggingface.co/{{ author.huggingface }}"><i class="fa-face-smiling-hands"></i> HuggingFace</a></li>
       {% endif %}
       {% if author.cv %}
-        <li><a href="{{ author.cv }}"><i class="fa-person" aria-hidden="true"></i> C.V.</a></li>
+        <li><a href="{{ author.cv }}"><i class="fa-person"></i> C.V.</a></li>
       {% endif %}
     </ul>
   </div>

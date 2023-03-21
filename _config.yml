@@ -10,7 +10,7 @@ locale                   : "zh-CN"
 title                    : "Yiheng Shu"
 title_separator          : "-"
 name                     : &name "Yiheng Shu"
-description              : &description "CS Graduate Student @ Nanjing University"
+description              : &description "Graduate Student @ Nanjing University"
 url                      : https://yihengshu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yihengshu/yihengshu.github.io"
@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Yiheng Shu"
-  avatar           : ""
+  avatar           : "files/homepage.jpeg"
   bio              : "Graduate Student @ Nanjing University"
   location         : "Nanjing, China"
   employer         :
-  pubmed           : ""
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=H63aXLcAAAAJ&hl"
-  email            :
+  email            : "yhshu@smail.nju.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/shuyh/"
   orcid            : "http://orcid.org/0000-0002-7536-2503"
   pinterest        :
   soundcloud       :

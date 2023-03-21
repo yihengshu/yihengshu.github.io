@@ -2,6 +2,8 @@
 main:
   # - title: "Publications"
   #   url: /publications/
+  - title: "Homepage"
+    url: /about
 
   - title: "Awards & Honors"
     url: /awards_honors/

@@ -6,7 +6,8 @@ redirect_from:
   - /awards_honors.html
 ---
 
-- Excellent Graduate Student, Nanjing University, 2022
+- Excellent Graduates, Nanjing University, 2023
+- Excellent Postgraduate Student, Nanjing University, 2022
 - First-class Yingcai Scholarship, Nanjing University, 2022
 - First-class Academic Scholarship for Master Students, Nanjing University, 2020-2022
 - Provincial Excellent Graduates, Education Department of Liaoning Province, 2020

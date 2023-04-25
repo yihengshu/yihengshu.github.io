@@ -10,13 +10,9 @@ redirect_from:
 
 ## About Me
 
-I'm a third-year graduate student in the [Websoft research group](http://ws.nju.edu.cn), Nanjing University. My research interests include question answering (QA) and knowledge graph (KG). Currently, I mainly focus on knowledge base question answering (**KBQA**) with semantic parsing-based methods. I have also conducted some research about recommender systems. I’m a former research intern at MSRA.
+I'm a third-year graduate student at [Nanjing University](https://njunju.nju.edu.cn/EN/main.htm), advised by Prof. Yuzhong Qu. I obtain my bachelor degree at [Northeastern University (China)](http://english.neu.edu.cn/) in 2020.
 
-## Experience
-
-- Master in Computer Technology, Department of Computer Science & Technology, [Nanjing University](https://www.nju.edu.cn/EN/main.htm), 2020.09 - 2023.06 (expected), advised by [Prof. Yuzhong Qu](http://ws.nju.edu.cn/~yzqu).
-- Bachelor in Software Engineering, Software College, [Northeastern University (China)](http://english.neu.edu.cn/), 2016.09 - 2020.06, advised by [Prof. Guibing Guo](https://guoguibing.github.io/) and [Prof. Gang Wu](http://www.cse.neu.edu.cn/2019/0311/c6641a157477/page.htm).
-- Full-time Research Intern, Knowledge Computing Group, [Microsoft Research Asia](https://www.msra.cn/), 2022.02 - 2023.02, advised by researcher [Zhiwei Yu](https://www.microsoft.com/en-us/research/people/zhiwyu/).
+My research interests include question answering (QA) and knowledge graph (KG). Currently, I mainly focus on knowledge base question answering (**KBQA**) with semantic parsing-based methods. I have also conducted some research about recommender systems. I worked at [MSRA](https://www.msra.cn/) as a full-time research intern for one year in 2022.
 
 ## Publications
 

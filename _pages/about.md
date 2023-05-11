@@ -13,8 +13,8 @@ redirect_from:
 I'm a third-year graduate student at Nanjing University, advised by Prof. Yuzhong Qu.
 My research interests include question answering (QA) and knowledge graph (KG). Currently, I mainly focus on knowledge base question answering (**KBQA**) with semantic parsing-based methods. I have also conducted some research about recommender systems.
 
-- Master in Computer Technology, [Nanjing University](https://njunju.nju.edu.cn/EN/main.htm), 2020.09 - 2023.06, advised by Prof. Yuzhong Qu
-- Bachelor in Software Engineering, [Northeastern University (China)](http://english.neu.edu.cn/), 2016.09 - 2020.06, advised by Prof. Guibing Guo & Prof. Gang Wu
+- Master in Computer Technology, [Nanjing University](https://njunju.nju.edu.cn/EN/main.htm), 2020.09 - 2023.06
+- Bachelor in Software Engineering, [Northeastern University (China)](http://english.neu.edu.cn/), 2016.09 - 2020.06
 - Full-time Research Intern, [Microsoft Research Asia](https://www.msra.cn/), 2022.02 - 2023.02
 
 ## Publications

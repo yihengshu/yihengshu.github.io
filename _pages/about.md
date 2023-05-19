@@ -17,6 +17,10 @@ My research interests include question answering (QA) and knowledge graph (KG). 
 - Bachelor in Software Engineering, [Northeastern University (CN)](http://english.neu.edu.cn/), 2016.09-2020.06, advised by [Prof. Guibing Guo](https://guoguibing.github.io/) and [Prof. Gang Wu](http://faculty.neu.edu.cn/wugang/)
 - Full-time Research Intern, [Microsoft Research Asia](https://www.msra.cn/), 2022.02-2023.02, advised by researcher [Zhiwei Yu](https://www.microsoft.com/en-us/research/people/zhiwyu/)
 
+## Recent News
+
+- May, 2023: Successfully defended my master thesis 《A Study on Semantic Parsing Methods for Robust Question Answering over Knowledge Base》.
+
 ## Publications
 
 ### Conference Papers

@@ -24,6 +24,7 @@ My research interests include question answering (QA) and knowledge graph (KG). 
 
 - **[AAAI’23]** Question Decomposition Tree for Answering Complex Questions over Knowledge Bases  
 Xiang Huang, Sitao Cheng, **Yiheng Shu**, Yuheng Bao, Yuzhong Qu  
+[[PDF](https://arxiv.org/pdf/2306.07597.pdf)]
 [[code](https://github.com/cdhx/QDTQA)]
 - **[EMNLP’22]** TIARA: Multi-grained Retrieval for Robust Question Answering over Large Knowledge Base  
 **Yiheng Shu**, Zhiwei Yu, Yuhan Li, Börje F. Karlsson, Tingting Ma, Yuzhong Qu, Chin-Yew Lin  

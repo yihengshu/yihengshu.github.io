@@ -11,7 +11,9 @@ redirect_from:
 ## About Me
 
 I'm a third-year graduate student at [Nanjing University](https://www.nju.edu.cn/en/), advised by Prof. Yuzhong Qu. 
-My research interests focus on semantic parsing, i.e., the process of converting natural language utterance into logical form, and related tasks include knowledge base question answering (KBQA). Some approaches are interesting to me: 1) grounding language models for semantic parsing, and 2) data augmentation for semantic parsing. Previously, I have conducted some research about recommender systems. I obtained my bachelor degree from [Northeastern University (CN)](http://english.neu.edu.cn/) in 2020, and I was a research intern at [MSRA](https://www.msra.cn/).
+My research interests focus on semantic parsing, i.e., the process of converting natural language utterance into logical form, and related tasks include knowledge base question answering (KBQA). 
+I am interested in the following approaches: 1) grounding language models for semantic parsing, and 2) augmenting data for semantic parsing. Before that, I did some research on recommender systems. I received my bachelor's degree from [Northeastern University (CN)](http://english.neu.edu.cn/) in 2020, and I was a research intern at [MSRA](https://www.msra.cn/) in 2022.
+
 
 <!-- - Master in Computer Technology, [Nanjing University](https://www.nju.edu.cn/en/), 2020.09-2023.06, advised by [Prof. Yuzhong Qu](http://ws.nju.edu.cn/~yzqu)
 - Bachelor in Software Engineering, [Northeastern University (CN)](http://english.neu.edu.cn/), 2016.09-2020.06, advised by [Prof. Guibing Guo](https://guoguibing.github.io/) and [Prof. Gang Wu](http://faculty.neu.edu.cn/wugang/)

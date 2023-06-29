@@ -28,6 +28,7 @@ I received my degrees from [Nanjing University](https://www.nju.edu.cn/en/) in 2
 Xiang Huang, Sitao Cheng, **Yiheng Shu**, Yuheng Bao, Yuzhong Qu  
 [[PDF](https://arxiv.org/pdf/2306.07597.pdf)]
 [[code](https://github.com/cdhx/QDTQA)]
+[[Proceedings](https://ojs.aaai.org/index.php/AAAI/article/view/26519/26291)]
 - **[EMNLP’22]** TIARA: Multi-grained Retrieval for Robust Question Answering over Large Knowledge Base  
 **Yiheng Shu**, Zhiwei Yu, Yuhan Li, Börje F. Karlsson, Tingting Ma, Yuzhong Qu, Chin-Yew Lin  
 [[PDF](https://arxiv.org/abs/2210.12925)]
@@ -36,7 +37,7 @@ Xiang Huang, Sitao Cheng, **Yiheng Shu**, Yuheng Bao, Yuzhong Qu
 [[poster](https://yihengshu.github.io/files/EMNLP22poster.pdf)]
 [[slides](https://yihengshu.github.io/files/EMNLP22slides.pdf)]
 [[video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-11-04/fr03tjr/EMNLP22.mp4)] 
-[[ACL Anthology](https://aclanthology.org/2022.emnlp-main.555/)]
+[[Proceedings](https://aclanthology.org/2022.emnlp-main.555/)]
 [[BibTeX](https://aclanthology.org/2022.emnlp-main.555.bib)]
 - **[COLING’22]** Logical Form Generation via Multi-task Learning for Complex Question Answering over Knowledge Bases  
 Xixin Hu, Xuan Wu, **Yiheng Shu**, Yuzhong Qu  
@@ -44,7 +45,7 @@ Xixin Hu, Xuan Wu, **Yiheng Shu**, Yuzhong Qu
 [[code](https://github.com/HXX97/GMT-KBQA)] 
 [[slides](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-09-23/ff53s0y/1216_GMTKBQA_presentation.pdf)] 
 [[video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-09-23/8y23sus/1216_GMTKBQA_video.mp4)] 
-[[ACL Anthology](https://aclanthology.org/2022.coling-1.145/)] 
+[[Proceedings](https://aclanthology.org/2022.coling-1.145/)] 
 [[BibTeX](https://aclanthology.org/2022.coling-1.145.bib)]
 - **[ISWC’21]** EDG-based Question Decomposition for Complex Question Answering over Knowledge Bases  
 Xixin Hu, **Yiheng Shu**, Xiang Huang, Yuzhong Qu  
@@ -52,7 +53,7 @@ Xixin Hu, **Yiheng Shu**, Xiang Huang, Yuzhong Qu
 [[code](http://github.com/HXX97/EDGQA)] 
 [[intro](http://edgqa.github.io)] 
 [[video](http://videolectures.net/iswc2021_1a_question_decomposition/)] 
-[[Springer Link](https://link.springer.com/chapter/10.1007/978-3-030-88361-4_8)] 
+[[Proceedings](https://link.springer.com/chapter/10.1007/978-3-030-88361-4_8)] 
 [[BibTeX](https://dblp.org/rec/conf/semweb/HuSHQ21.html?view=bibtex)]
 
 ### Journal Paper

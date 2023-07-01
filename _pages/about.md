@@ -33,7 +33,7 @@ Xiang Huang, Sitao Cheng, **Yiheng Shu**, Yuheng Bao, Yuzhong Qu
 **Yiheng Shu**, Zhiwei Yu, Yuhan Li, Börje F. Karlsson, Tingting Ma, Yuzhong Qu, Chin-Yew Lin  
 [[PDF](https://arxiv.org/abs/2210.12925)]
 [[code](https://github.com/microsoft/KC/tree/main/papers/TIARA)]
-[[data](https://kcpapers.blob.core.windows.net/tiara-emnlp2022/TIARA_DATA.zip)]
+[[data](https://drive.google.com/file/d/171vTwW-tO4_5DdEzlYljj2-M3YHvegYF/view?usp=sharing)]
 [[poster](https://yihengshu.github.io/files/EMNLP22poster.pdf)]
 [[slides](https://yihengshu.github.io/files/EMNLP22slides.pdf)]
 [[video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-11-04/fr03tjr/EMNLP22.mp4)] 

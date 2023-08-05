@@ -10,7 +10,7 @@ redirect_from:
 
 ## About Me
  
-I'm the first-year doctoral student at [The Ohio State University](https://www.osu.edu/), advised by Prof. Yu Su.
+I'm the first-year doctoral student at [The Ohio State University](https://www.osu.edu/), advised by [Prof. Yu Su](https://ysu1989.github.io/).
 My research interests focus on semantic parsing, i.e., the process of converting natural language utterance into logical form, and related tasks include knowledge base question answering (KBQA). 
 I am interested in the following approaches: 1) grounding language models for semantic parsing, and 2) augmenting data for semantic parsing. Before that, I did some research on recommender systems. 
 I received my degrees from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and [Northeastern University (CN)](http://english.neu.edu.cn/) in 2020. I was a research intern at [MSRA](https://www.msra.cn/) in 2022.

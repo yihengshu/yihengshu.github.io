@@ -9,12 +9,11 @@ redirect_from:
 ---
 
 ## About Me
- 
+
 I'm a first-year doctoral student at [The Ohio State University](https://www.osu.edu/), advised by [Prof. Yu Su](https://ysu1989.github.io/).
 My research interests focus on semantic parsing, i.e., the process of converting natural language utterance into logical form, and related tasks include knowledge base question answering (KBQA). 
 I am interested in the following approaches: 1) grounding language models for semantic parsing, and 2) augmenting data for semantic parsing. Before that, I did some research on recommender systems. 
 I received my degrees from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and [Northeastern University (CN)](http://english.neu.edu.cn/) in 2020. I was a research intern at [MSRA](https://www.msra.cn/) in 2022.
-
 
 <!-- - Master in Computer Technology, [Nanjing University](https://www.nju.edu.cn/en/), 2020.09-2023.06, advised by [Prof. Yuzhong Qu](http://ws.nju.edu.cn/~yzqu)
 - Bachelor in Software Engineering, [Northeastern University (CN)](http://english.neu.edu.cn/), 2016.09-2020.06, advised by [Prof. Guibing Guo](https://guoguibing.github.io/) and [Prof. Gang Wu](http://faculty.neu.edu.cn/wugang/)
@@ -22,9 +21,10 @@ I received my degrees from [Nanjing University](https://www.nju.edu.cn/en/) in 2
 
 ## Preprints
 
-- **[arXiv 2023]** Data Distribution Bottlenecks in Grounding Language Models to Knowledge Bases
-**Yiheng Shu**, Zhiwei Yu
+- **[arXiv 2023]** Data Distribution Bottlenecks in Grounding Language Models to Knowledge Bases  
+**Yiheng Shu**, Zhiwei Yu  
 [[paper](https://arxiv.org/pdf/2309.08345.pdf)]
+
 
 ## Publications
 

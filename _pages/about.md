@@ -24,7 +24,7 @@ I received my degrees from [Nanjing University](https://www.nju.edu.cn/en/) in 2
 
 - **[arXiv 2023]** Data Distribution Bottlenecks in Grounding Language Models to Knowledge Bases
 **Yiheng Shu**, Zhiwei Yu
-[[paper]](https://arxiv.org/pdf/2309.08345.pdf)
+[[paper](https://arxiv.org/pdf/2309.08345.pdf)]
 
 ## Publications
 

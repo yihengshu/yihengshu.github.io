@@ -20,6 +20,11 @@ I received my degrees from [Nanjing University](https://www.nju.edu.cn/en/) in 2
 - Bachelor in Software Engineering, [Northeastern University (CN)](http://english.neu.edu.cn/), 2016.09-2020.06, advised by [Prof. Guibing Guo](https://guoguibing.github.io/) and [Prof. Gang Wu](http://faculty.neu.edu.cn/wugang/)
 - Full-time Research Intern, [Microsoft Research Asia](https://www.msra.cn/), 2022.02-2023.02, advised by researcher [Zhiwei Yu](https://www.microsoft.com/en-us/research/people/zhiwyu/) -->
 
+## Preprints
+
+- **[arXiv 2023]** Data Distribution Bottlenecks in Grounding Language Models to Knowledge Bases
+**Yiheng Shu**, Zhiwei Yu
+[[paper]](https://arxiv.org/pdf/2309.08345.pdf)
 
 ## Publications
 

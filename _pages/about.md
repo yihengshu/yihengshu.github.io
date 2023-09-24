@@ -11,9 +11,10 @@ redirect_from:
 ## About Me
 
 I'm a first-year doctoral student at [The Ohio State University](https://cse.osu.edu/), advised by [Prof. Yu Su](https://ysu1989.github.io/).
-My research interests focus on semantic parsing, i.e., the process of converting natural language utterance into logical form, and related tasks include knowledge base question answering (KBQA). 
-I am interested in the following approaches: 1) grounding language models for semantic parsing, and 2) augmenting data for semantic parsing. Before that, I did some research on recommender systems. 
-I received my degrees from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and [Northeastern University (CN)](http://sc.neu.edu.cn/english/main.htm) in 2020. I was a research intern at [MSRA](https://www.msra.cn/) in 2022.
+My research interests focus on semantic parsing, i.e., converting natural language utterance into logical form, and related tasks include knowledge base question answering (KBQA). 
+<!-- I am interested in the following approaches: 1) grounding language models for semantic parsing, and 2) augmenting data for semantic parsing. Before that, I did some research on recommender systems.  -->
+I received my Master degree from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and Bachelor degree from [Northeastern University (CN)](http://sc.neu.edu.cn/english/main.htm) in 2020. 
+I was research intern at [MSRA](https://www.msra.cn/) in 2022.
 
 <!-- - Master in Computer Technology, [Nanjing University](https://www.nju.edu.cn/en/), 2020.09-2023.06, advised by [Prof. Yuzhong Qu](http://ws.nju.edu.cn/~yzqu)
 - Bachelor in Software Engineering, [Northeastern University (CN)](http://english.neu.edu.cn/), 2016.09-2020.06, advised by [Prof. Guibing Guo](https://guoguibing.github.io/) and [Prof. Gang Wu](http://faculty.neu.edu.cn/wugang/)

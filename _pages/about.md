@@ -21,17 +21,12 @@ I was research intern at [MSRA](https://www.msra.cn/) in 2022.
 - Bachelor in Software Engineering, [Northeastern University (CN)](http://english.neu.edu.cn/), 2016.09-2020.06, advised by [Prof. Guibing Guo](https://guoguibing.github.io/) and [Prof. Gang Wu](http://faculty.neu.edu.cn/wugang/)
 - Full-time Research Intern, [Microsoft Research Asia](https://www.msra.cn/), 2022.02-2023.02, advised by researcher [Zhiwei Yu](https://www.microsoft.com/en-us/research/people/zhiwyu/) -->
 
-## Preprints
-
-- **[arXiv 2023]** Data Distribution Bottlenecks in Grounding Language Models to Knowledge Bases  
-**Yiheng Shu**, Zhiwei Yu  
-[[paper](https://arxiv.org/pdf/2309.08345.pdf)]
-
 
 ## Publications
 
-### Conference Papers
-
+- **[EACL'24 SRW]** Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases
+**Yiheng Shu**, Zhiwei Yu  
+[[arXiv](https://arxiv.org/pdf/2309.08345.pdf)]
 - **[AAAI’23]** Question Decomposition Tree for Answering Complex Questions over Knowledge Bases  
 Xiang Huang, Sitao Cheng, **Yiheng Shu**, Yuheng Bao, Yuzhong Qu  
 [[paper](https://arxiv.org/pdf/2306.07597.pdf)]
@@ -63,18 +58,12 @@ Xixin Hu, **Yiheng Shu**, Xiang Huang, Yuzhong Qu
 [[video](http://videolectures.net/iswc2021_1a_question_decomposition/)] 
 [[proceedings](https://link.springer.com/chapter/10.1007/978-3-030-88361-4_8)] 
 [[BibTeX](https://dblp.org/rec/conf/semweb/HuSHQ21.html?view=bibtex)]
-
-### Journal Paper
-
 - **[TOIS’20]** Deep Learning for Sequential Recommendation: Algorithms, Influential Factors, and Evaluations  
 Hui Fang, Danning Zhang, **Yiheng Shu**, Guibing Guo  
 [[paper](https://arxiv.org/abs/1905.01997)] 
 [[code](https://github.com/sttich/dl-recommendation)] 
 [[ACM Library](https://dl.acm.org/doi/10.1145/3426723)] 
 [[BibTeX](https://dblp.org/rec/journals/tois/FangZSG20.html?view=bibtex)]
-
-### Tutorial
-
 - **[ICWE’19 tutorial]** Deep Learning-based Sequential Recommender Systems: Concepts, Algorithms, and Evaluations  
 Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**  
 [[slides](http://web.geni-pco.com/icwe2019/tutorial2_DL-based_rs.pdf)] 

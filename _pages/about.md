@@ -26,7 +26,7 @@ I was research intern at [MSRA](https://www.msra.cn/) in 2022.
 
 - **[EACL'24 SRW]** Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases  
 **Yiheng Shu**, Zhiwei Yu  
-[[arXiv](https://arxiv.org/pdf/2309.08345.pdf)]
+[[paper](https://arxiv.org/pdf/2309.08345.pdf)]
 [[code](https://github.com/yhshu/Distribution-Shifts-for-KBQA)]
 [[data](https://huggingface.co/datasets/yhshu/TIARA-GAIN/tree/main)]
 [[proceedings]()]

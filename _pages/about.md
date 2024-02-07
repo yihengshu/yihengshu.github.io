@@ -26,16 +26,15 @@ I was research intern at [MSRA](https://www.msra.cn/) in 2022.
 
 - **[EACL'24 SRW]** Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases  
 **Yiheng Shu**, Zhiwei Yu  
-[[paper](https://arxiv.org/pdf/2309.08345.pdf)]
+[[paper](https://github.com/yhshu/Distribution-Shifts-for-KBQA/blob/main/eacl_2024_srw.pdf)]
 [[code](https://github.com/yhshu/Distribution-Shifts-for-KBQA)]
 [[data](https://huggingface.co/datasets/yhshu/TIARA-GAIN/tree/main)]
-[[proceedings]()]
-[[BibTeX]()]
 - **[AAAI’23]** Question Decomposition Tree for Answering Complex Questions over Knowledge Bases  
 Xiang Huang, Sitao Cheng, **Yiheng Shu**, Yuheng Bao, Yuzhong Qu  
-[[paper](https://arxiv.org/pdf/2306.07597.pdf)]
+[[paper](https://arxiv.org/abs/2306.07597)]
 [[code](https://github.com/cdhx/QDTQA)]
 [[proceedings](https://ojs.aaai.org/index.php/AAAI/article/view/26519/26291)]
+[[BibTeX](https://dblp.org/rec/conf/aaai/HuangCSBQ23.html?view=bibtex)]
 - **[EMNLP’22]** TIARA: Multi-grained Retrieval for Robust Question Answering over Large Knowledge Base  
 **Yiheng Shu**, Zhiwei Yu, Yuhan Li, Börje F. Karlsson, Tingting Ma, Yuzhong Qu, Chin-Yew Lin  
 [[paper](https://arxiv.org/abs/2210.12925)]

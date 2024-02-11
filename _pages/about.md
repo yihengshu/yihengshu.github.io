@@ -29,8 +29,8 @@ I was research intern at [MSRA](https://www.msra.cn/) in 2022.
 [[paper](https://github.com/yhshu/Distribution-Shifts-for-KBQA/blob/main/eacl_2024_srw.pdf)]
 [[code](https://github.com/yhshu/Distribution-Shifts-for-KBQA)]
 [[data](https://huggingface.co/datasets/yhshu/TIARA-GAIN/tree/main)]
-[[poster](https://urldefense.com/v3/__https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-02-11/4f13myd/EACL*202024*20SRW*20poster.pdf__;JSUl!!KGKeukY!zIl4C5O47jVYxCa6H19zjE0EZhSd-hXSREKe0z2D7oitITtqx4aYeibKNSEpsJCBc6toUEQcM37ia-Ee9-Qcfw$)]
-[[video](https://urldefense.com/v3/__https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-02-11/6103mrr/EACL*202024*20SRW*20slides.mp4__;JSUl!!KGKeukY!zIl4C5O47jVYxCa6H19zjE0EZhSd-hXSREKe0z2D7oitITtqx4aYeibKNSEpsJCBc6toUEQcM37ia-HtJM2dJQ$)]
+[[poster](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-02-11/4f13myd/EACL%202024%20SRW%20poster.pdf)]
+[[video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-02-11/6103mrr/EACL%202024%20SRW%20slides.mp4)]
 - **[AAAI’23]** Question Decomposition Tree for Answering Complex Questions over Knowledge Bases  
 Xiang Huang, Sitao Cheng, **Yiheng Shu**, Yuheng Bao, Yuzhong Qu  
 [[paper](https://arxiv.org/abs/2306.07597)]

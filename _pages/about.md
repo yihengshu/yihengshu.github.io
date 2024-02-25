@@ -23,11 +23,11 @@ Feel free to reach out to me if you're interested in my research.
 
 ## Preprints
 
-- **[arXiv]** Middleware for LLMs: Tools Are Instrumental for Language Agents in Complex Environments
-Yu Gu, **Yiheng Shu**, Hao Yu, Xiao Liu, Yuxiao Dong, Jie Tang, Jayanth Srinivasa, Hugo Latapie, Yu Su
+- **[arXiv]** Middleware for LLMs: Tools Are Instrumental for Language Agents in Complex Environments  
+Yu Gu, **Yiheng Shu**, Hao Yu, Xiao Liu, Yuxiao Dong, Jie Tang, Jayanth Srinivasa, Hugo Latapie, Yu Su  
 [[paper](https://arxiv.org/abs/2402.14672)]
 [[code](https://github.com/OSU-NLP-Group/Fuxi)]
-[[KBQA-Agent data](https://huggingface.co/datasets/osunlp/KBQA-Agent)]
+[[benchmark](https://huggingface.co/datasets/osunlp/KBQA-Agent)]
 
 ## Publications
 

@@ -38,6 +38,8 @@ Yu Gu, **Yiheng Shu**, Hao Yu, Xiao Liu, Yuxiao Dong, Jie Tang, Jayanth Srinivas
 [[data](https://huggingface.co/datasets/yhshu/TIARA-GAIN/tree/main)]
 [[poster](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-02-11/4f13myd/EACL%202024%20SRW%20poster.pdf)]
 [[video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-02-11/6103mrr/EACL%202024%20SRW%20slides.mp4)]
+[[proceedings](https://aclanthology.org/2024.eacl-srw.7/)]
+[[BibTeX](https://aclanthology.org/2024.eacl-srw.7.bib)]
 - **[AAAI’23]** Question Decomposition Tree for Answering Complex Questions over Knowledge Bases  
 Xiang Huang, Sitao Cheng, **Yiheng Shu**, Yuheng Bao, Yuzhong Qu  
 [[paper](https://arxiv.org/abs/2306.07597)]

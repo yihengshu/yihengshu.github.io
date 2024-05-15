@@ -10,7 +10,7 @@ locale                   : "zh-CN"
 title                    : "Yiheng Shu"
 title_separator          : "-"
 name                     : &name "Yiheng Shu"
-description              : &description "Graduate Student @ Nanjing University"
+description              : &description "PhD student @ OSU"
 url                      : https://yihengshu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yihengshu/yihengshu.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Yiheng Shu"
   avatar           : "https://yihengshu.github.io/files/homepage.jpeg"
-  bio              : "Ph.D. Student @ Ohio State"
+  bio              : "PhD Student @ Ohio State"
   location         : "Columbus, OH"
   employer         :
   pubmed           : 

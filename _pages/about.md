@@ -27,7 +27,6 @@ Feel free to reach out to me if you're interested in my research.
 Bernal Jimenez Gutierrez, **Yiheng Shu**, Yu Gu, Michihiro Yasunaga, Yu Su  
 [[paper](https://arxiv.org/abs/2405.14831)]
 [[code](https://github.com/OSU-NLP-Group/HippoRAG)]
-
 - **[arXiv]** Middleware for LLMs: Tools Are Instrumental for Language Agents in Complex Environments  
 Yu Gu, **Yiheng Shu**, Hao Yu, Xiao Liu, Yuxiao Dong, Jie Tang, Jayanth Srinivasa, Hugo Latapie, Yu Su  
 [[paper](https://arxiv.org/abs/2402.14672)]

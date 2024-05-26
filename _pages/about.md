@@ -23,8 +23,8 @@ Feel free to reach out to me if you're interested in my research.
 
 ## Preprints
 
-- **[arXiv]** HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models  
-Bernal Jimenez Gutierrez, **Yiheng Shu**, Yu Gu, Michihiro Yasunaga, Yu Su  
+- **[arXiv]** HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models   
+Bernal Jiménez Gutiérrez, **Yiheng Shu**, Yu Gu, Michihiro Yasunaga, Yu Su  
 [[paper](https://arxiv.org/abs/2405.14831)]
 [[code](https://github.com/OSU-NLP-Group/HippoRAG)]
 - **[arXiv]** Middleware for LLMs: Tools Are Instrumental for Language Agents in Complex Environments  

@@ -92,4 +92,4 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 
 ## Services
 
-- Reviewer: [ARR](https://aclrollingreview.org/) 2024
+- Reviewer: [ARR 2024](https://aclrollingreview.org/), [WiNLP 2024](https://www.winlp.org/winlp-2024-workshop/)

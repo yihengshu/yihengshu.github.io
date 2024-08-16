@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
-I'm a first-year doctoral student at [The Ohio State University](https://cse.osu.edu/), advised by [Prof. Yu Su](https://ysu1989.github.io/).
+I'm a second-year doctoral student at [The Ohio State University](https://cse.osu.edu/), advised by [Prof. Yu Su](https://ysu1989.github.io/).
 My research interests include language agents and retrieval-augmented generation (RAG): 1) how to ground large language models to real-world environments, and 2) how to retrieve from environments and augment large language models.
 
 I received my Master degree from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and Bachelor degree from [Northeastern University (CN)](http://sc.neu.edu.cn/english/main.htm) in 2020. 

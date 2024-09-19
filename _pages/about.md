@@ -27,14 +27,14 @@ Feel free to reach out to me if you're interested in my research.
 Bernal Jiménez Gutiérrez, **Yiheng Shu**, Yu Gu, Michihiro Yasunaga, Yu Su  
 [[paper](https://arxiv.org/abs/2405.14831)]
 [[code](https://github.com/OSU-NLP-Group/HippoRAG)]
-- **[arXiv]** Middleware for LLMs: Tools Are Instrumental for Language Agents in Complex Environments  
+
+## Publications
+
+- **[EMNLP'24]** Middleware for LLMs: Tools Are Instrumental for Language Agents in Complex Environments  
 Yu Gu, **Yiheng Shu**, Hao Yu, Xiao Liu, Yuxiao Dong, Jie Tang, Jayanth Srinivasa, Hugo Latapie, Yu Su  
 [[paper](https://arxiv.org/abs/2402.14672)]
 [[code](https://github.com/OSU-NLP-Group/Fuxi)]
 [[benchmark](https://huggingface.co/datasets/osunlp/KBQA-Agent)]
-
-## Publications
-
 - **[EACL'24 SRW]** Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases  
 **Yiheng Shu**, Zhiwei Yu  
 [[paper](https://arxiv.org/abs/2309.08345)]

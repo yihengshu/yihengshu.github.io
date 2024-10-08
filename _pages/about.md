@@ -21,6 +21,14 @@ Feel free to reach out to me if you're interested in my research.
 - Bachelor in Software Engineering, [Northeastern University (CN)](http://english.neu.edu.cn/), 2016.09-2020.06, advised by [Prof. Guibing Guo](https://guoguibing.github.io/) and [Prof. Gang Wu](http://faculty.neu.edu.cn/wugang/)
 - Full-time Research Intern, [Microsoft Research Asia](https://www.msra.cn/), 2022.02-2023.02, advised by researcher [Zhiwei Yu](https://www.microsoft.com/en-us/research/people/zhiwyu/) -->
 
+## Preprints
+
+- **[arXiv]** Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents  
+Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, **Yiheng Shu**, Huan Sun, Yu Su  
+[[paper](https://arxiv.org/abs/2410.05243)]
+[[code](https://github.com/OSU-NLP-Group/UGround)]
+[[home](https://osu-nlp-group.github.io/UGround/)]
+
 ## Publications
 
 - **[NeurIPS'24]** HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models  
@@ -69,7 +77,7 @@ Xixin Hu, Xuan Wu, **Yiheng Shu**, Yuzhong Qu
 Xixin Hu, **Yiheng Shu**, Xiang Huang, Yuzhong Qu  
 [[paper](https://www.researchgate.net/profile/Xixin-Hu/publication/354925951_EDG-Based_Question_Decomposition_for_Complex_Question_Answering_over_Knowledge_Bases/links/63023efae3c7de4c3472860d/EDG-Based-Question-Decomposition-for-Complex-Question-Answering-over-Knowledge-Bases.pdf)] 
 [[code](http://github.com/HXX97/EDGQA)] 
-[[project](http://edgqa.github.io)] 
+[[home](http://edgqa.github.io)] 
 [[video](http://videolectures.net/iswc2021_1a_question_decomposition/)] 
 [[proceedings](https://link.springer.com/chapter/10.1007/978-3-030-88361-4_8)] 
 [[BibTeX](https://dblp.org/rec/conf/semweb/HuSHQ21.html?view=bibtex)]
@@ -88,5 +96,5 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 
 ## Services
 
-- Conference reviewer: [ARR 2024](https://aclrollingreview.org/) ([ACL 2024](https://2024.aclweb.org/), [EMNLP 2024](https://2024.emnlp.org/))
+- Conference reviewer: [ARR 2024](https://aclrollingreview.org/) ([ACL 2024](https://2024.aclweb.org/), [EMNLP 2024](https://2024.emnlp.org/)), [WiNLP 2024](https://www.winlp.org/winlp-2024-workshop/)
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)

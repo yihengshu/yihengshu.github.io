@@ -96,5 +96,5 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 
 ## Services
 
-- Conference reviewer: [ARR 2024](https://aclrollingreview.org/) ([ACL 2024](https://2024.aclweb.org/), [EMNLP 2024](https://2024.emnlp.org/)), [WiNLP 2024](https://www.winlp.org/winlp-2024-workshop/)
+- Conference reviewer: [ARR 2024](https://aclrollingreview.org/) ([ACL 2024](https://2024.aclweb.org/), [EMNLP 2024](https://2024.emnlp.org/), [NAACL 2025](https://2025.naacl.org)), [WiNLP 2024](https://www.winlp.org/winlp-2024-workshop/)
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)

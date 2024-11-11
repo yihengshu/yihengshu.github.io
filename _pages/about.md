@@ -41,6 +41,8 @@ Yu Gu, **Yiheng Shu**, Hao Yu, Xiao Liu, Yuxiao Dong, Jie Tang, Jayanth Srinivas
 [[paper](https://arxiv.org/abs/2402.14672)]
 [[code](https://github.com/OSU-NLP-Group/Fuxi)]
 [[benchmark](https://huggingface.co/datasets/osunlp/KBQA-Agent)]
+[[proceedings](https://aclanthology.org/2024.emnlp-main.436/)]
+[[BibTeX](https://aclanthology.org/2024.emnlp-main.436.bib)]
 - **[EACL'24 SRW]** Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases  
 **Yiheng Shu**, Zhiwei Yu  
 [[paper](https://arxiv.org/abs/2309.08345)]

@@ -10,7 +10,7 @@ redirect_from:
 ## About Me
 
 I'm a second-year doctoral student at [The Ohio State University](https://cse.osu.edu/), advised by [Prof. Yu Su](https://ysu1989.github.io/).
-My research interests include language agents and retrieval-augmented generation (RAG): 1) how to ground large language models to real-world environments, and 2) how to retrieve from environments and augment large language models.
+My research explores retrieval-augmented generation (RAG) and advanced language systems. Specifically, I focus on: 1) developing efficient information retrieval approaches to enhance reasoning and long-term memory capabilities, and 2) integrating these models with complex external environments such as the Web, knowledge graphs, and databases.
 
 I received my Master degree from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and Bachelor degree from [Northeastern University (CN)](http://sc.neu.edu.cn/english/main.htm) in 2020. 
 I was research intern at [MSRA](https://www.msra.cn/) in 2022.
@@ -101,3 +101,6 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 
 - Conference reviewer: [ARR 2024](https://aclrollingreview.org/) ([ACL 2024](https://2024.aclweb.org/), [EMNLP 2024](https://2024.emnlp.org/), [NAACL 2025](https://2025.naacl.org)), [WiNLP 2024](https://www.winlp.org/winlp-2024-workshop/)
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
+
+
+Update: 11/27/2024

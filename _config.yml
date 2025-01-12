@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "Yiheng Shu | The Ohio State University"
+title                    : "Yiheng Shu - The Ohio State University"
 title_separator          : "-"
 name                     : &name "Yiheng Shu"
 description              : &description "PhD student @ OSU"

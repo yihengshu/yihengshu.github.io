@@ -22,16 +22,13 @@ Feel free to reach out to me if you're interested in my research. I'm looking fo
 - Bachelor in Software Engineering, [Northeastern University (CN)](http://english.neu.edu.cn/), 2016.09-2020.06, advised by [Prof. Guibing Guo](https://guoguibing.github.io/) and [Prof. Gang Wu](http://faculty.neu.edu.cn/wugang/)
 - Full-time Research Intern, [Microsoft Research Asia](https://www.msra.cn/), 2022.02-2023.02, advised by researcher [Zhiwei Yu](https://www.microsoft.com/en-us/research/people/zhiwyu/) -->
 
-## Preprints
+## Publications
 
-- **[arXiv]** Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents  
+- **[ICLR'25]** Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents  
 Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, **Yiheng Shu**, Huan Sun, Yu Su  
 [[paper](https://arxiv.org/abs/2410.05243)]
 [[code](https://github.com/OSU-NLP-Group/UGround)]
 [[home](https://osu-nlp-group.github.io/UGround/)]
-
-## Publications
-
 - **[NeurIPS'24]** HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models  
 Bernal Jiménez Gutiérrez, **Yiheng Shu**, Yu Gu, Michihiro Yasunaga, Yu Su  
 [[paper](https://arxiv.org/abs/2405.14831)]
@@ -103,4 +100,4 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 
 
-Update: 01/13/2025
+Update: 01/23/2025

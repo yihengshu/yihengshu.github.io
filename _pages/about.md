@@ -12,11 +12,14 @@ redirect_from:
 I'm a second-year doctoral student at [The Ohio State University](https://cse.osu.edu/), advised by [Prof. Yu Su](https://ysu1989.github.io/).
 My research explores retrieval-augmented generation (RAG) and advanced language systems. Specifically, I focus on: 1) developing efficient information retrieval approaches to enhance reasoning and long-term memory capabilities, and 2) integrating these models with complex external environments such as the Web, knowledge graphs, and databases.
 
+ 
+
 I received my Master degree from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and Bachelor degree from [Northeastern University (CN)](http://sc.neu.edu.cn/english/main.htm) in 2020. 
 I was research intern at [MSRA](https://www.msra.cn/) in 2022.
 
+ 
 
-Feel free to reach out to me if you're interested in my research. I'm looking for summer internship opportunities.
+Feel free to reach out to me if you're interested in my research. I'm looking for 2025 summer internship opportunities.
 
 <!-- - Master in Computer Technology, [Nanjing University](https://www.nju.edu.cn/en/), 2020.09-2023.06, advised by [Prof. Yuzhong Qu](http://ws.nju.edu.cn/~yzqu)
 - Bachelor in Software Engineering, [Northeastern University (CN)](http://english.neu.edu.cn/), 2016.09-2020.06, advised by [Prof. Guibing Guo](https://guoguibing.github.io/) and [Prof. Gang Wu](http://faculty.neu.edu.cn/wugang/)

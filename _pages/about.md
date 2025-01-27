@@ -12,12 +12,8 @@ redirect_from:
 I'm a second-year doctoral student at [The Ohio State University](https://cse.osu.edu/), advised by [Prof. Yu Su](https://ysu1989.github.io/).
 My research explores retrieval-augmented generation (RAG) and advanced language systems. Specifically, I focus on: 1) developing efficient information retrieval approaches to enhance reasoning and long-term memory capabilities, and 2) integrating these models with complex external environments such as the Web, knowledge graphs, and databases.
 
- 
-
 I received my Master degree from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and Bachelor degree from [Northeastern University (CN)](http://sc.neu.edu.cn/english/main.htm) in 2020. 
 I was research intern at [MSRA](https://www.msra.cn/) in 2022.
-
- 
 
 Feel free to reach out to me if you're interested in my research. I'm looking for 2025 summer internship opportunities.
 
@@ -35,7 +31,8 @@ Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, **Yiheng Shu**, Hua
 - **[NeurIPS'24]** HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models  
 Bernal Jiménez Gutiérrez, **Yiheng Shu**, Yu Gu, Michihiro Yasunaga, Yu Su  
 [[paper](https://arxiv.org/abs/2405.14831)]
-[[code (>1.5k stars)](https://github.com/OSU-NLP-Group/HippoRAG)]
+[[code (1.5k+ stars)](https://github.com/OSU-NLP-Group/HippoRAG)]
+[[poster](https://neurips.cc/virtual/2024/poster/94043)]
 - **[EMNLP'24]** Middleware for LLMs: Tools Are Instrumental for Language Agents in Complex Environments  
 Yu Gu, **Yiheng Shu**, Hao Yu, Xiao Liu, Yuxiao Dong, Jie Tang, Jayanth Srinivasa, Hugo Latapie, Yu Su  
 [[paper](https://arxiv.org/abs/2402.14672)]
@@ -103,4 +100,4 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 
 
-Update: 01/23/2025
+Update: 01/27/2025

@@ -23,7 +23,7 @@ Feel free to reach out to me if you're interested in my research. I'm looking fo
 
 ## Publications
 
-- **[ICLR'25]** Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents  
+- **[ICLR'25 Oral]** Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents  
 Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, **Yiheng Shu**, Huan Sun, Yu Su  
 [[paper](https://arxiv.org/abs/2410.05243)]
 [[code](https://github.com/OSU-NLP-Group/UGround)]
@@ -100,4 +100,4 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 
 
-Update: 01/27/2025
+Update: 02/11/2025

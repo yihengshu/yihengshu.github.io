@@ -32,6 +32,7 @@ Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, **Yiheng Shu**, Hua
 Bernal Jiménez Gutiérrez, **Yiheng Shu**, Yu Gu, Michihiro Yasunaga, Yu Su  
 [[paper](https://arxiv.org/abs/2405.14831)]
 [[code (1.5k+ stars)](https://github.com/OSU-NLP-Group/HippoRAG)]
+[[proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html)]
 [[poster](https://neurips.cc/virtual/2024/poster/94043)]
 - **[EMNLP'24]** Middleware for LLMs: Tools Are Instrumental for Language Agents in Complex Environments  
 Yu Gu, **Yiheng Shu**, Hao Yu, Xiao Liu, Yuxiao Dong, Jie Tang, Jayanth Srinivasa, Hugo Latapie, Yu Su  
@@ -96,8 +97,8 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 
 ## Services
 
-- Conference reviewer: [ARR 2024](https://aclrollingreview.org/) ([ACL 2024](https://2024.aclweb.org/), [EMNLP 2024](https://2024.emnlp.org/), [NAACL 2025](https://2025.naacl.org)), [WiNLP 2024](https://www.winlp.org/winlp-2024-workshop/)
+- Conference reviewer: [ARR 2025](https://aclrollingreview.org/), [ARR 2024](https://aclrollingreview.org/) ([ACL 2024](https://2024.aclweb.org/), [EMNLP 2024](https://2024.emnlp.org/), [NAACL 2025](https://2025.naacl.org)), [WiNLP 2024](https://www.winlp.org/winlp-2024-workshop/)
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 
 
-Update: 02/11/2025
+Update: 02/16/2025

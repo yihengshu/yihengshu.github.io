@@ -21,6 +21,13 @@ Feel free to reach out to me if you're interested in my research. I'm looking fo
 - Bachelor in Software Engineering, [Northeastern University (CN)](http://english.neu.edu.cn/), 2016.09-2020.06, advised by [Prof. Guibing Guo](https://guoguibing.github.io/) and [Prof. Gang Wu](http://faculty.neu.edu.cn/wugang/)
 - Full-time Research Intern, [Microsoft Research Asia](https://www.msra.cn/), 2022.02-2023.02, advised by researcher [Zhiwei Yu](https://www.microsoft.com/en-us/research/people/zhiwyu/) -->
 
+## Preprints
+
+- **[arXiv]** From RAG to Memory: Non-Parametric Continual Learning for Large Language Model  
+Bernal Jiménez Gutiérrez\*, **Yiheng Shu**\*, Weijian Qi, Sizhe Zhou, Yu Su (\*: equal contribution)  
+[[paper](https://arxiv.org/abs/2502.14802)]
+[[code](https://github.com/OSU-NLP-Group/HippoRAG)]
+
 ## Publications
 
 - **[ICLR'25 Oral]** Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents  
@@ -101,4 +108,4 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 
 
-Update: 02/16/2025
+Update: 02/21/2025

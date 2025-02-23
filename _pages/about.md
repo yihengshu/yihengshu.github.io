@@ -24,7 +24,7 @@ Feel free to reach out to me if you're interested in my research. I'm looking fo
 ## Preprints
 
 - **[arXiv]** From RAG to Memory: Non-Parametric Continual Learning for Large Language Model  
-Bernal Jiménez Gutiérrez\*, **Yiheng Shu**\*, Weijian Qi, Sizhe Zhou, Yu Su (\*: equal contribution)  
+Bernal Jiménez Gutiérrez\*, **Yiheng Shu**\*, Weijian Qi, Sizhe Zhou, Yu Su (\*: Equal Contribution)  
 [[paper](https://arxiv.org/abs/2502.14802)]
 [[code](https://github.com/OSU-NLP-Group/HippoRAG)]
 
@@ -104,8 +104,9 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 
 ## Services
 
-- Conference reviewer: [ARR 2025](https://aclrollingreview.org/), [ARR 2024](https://aclrollingreview.org/) ([ACL 2024](https://2024.aclweb.org/), [EMNLP 2024](https://2024.emnlp.org/), [NAACL 2025](https://2025.naacl.org)), [WiNLP 2024](https://www.winlp.org/winlp-2024-workshop/)
+- Conference reviewer: [ARR'25](https://aclrollingreview.org/), [ARR'24](https://aclrollingreview.org/) ([ACL'24](https://2024.aclweb.org/), [EMNLP'24](https://2024.emnlp.org/), [NAACL'25](https://2025.naacl.org))
+- Workshop reviewer: [WiNLP'24](https://www.winlp.org/winlp-2024-workshop/), [ICLR'25 Reasoning and Planning for LLMs](https://workshop-llm-reasoning-planning.github.io/)
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 
 
-Update: 02/21/2025
+Update: 02/23/2025

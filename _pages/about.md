@@ -38,7 +38,7 @@ Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, **Yiheng Shu**, Hua
 - **[NeurIPS'24]** HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models  
 Bernal Jiménez Gutiérrez, **Yiheng Shu**, Yu Gu, Michihiro Yasunaga, Yu Su  
 [[paper](https://arxiv.org/abs/2405.14831)]
-[[code (1.5k+ stars)](https://github.com/OSU-NLP-Group/HippoRAG)]
+[[code (1.5k+ stars)](https://github.com/OSU-NLP-Group/HippoRAG/tree/legacy)]
 [[proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html)]
 [[poster](https://neurips.cc/virtual/2024/poster/94043)]
 - **[EMNLP'24]** Middleware for LLMs: Tools Are Instrumental for Language Agents in Complex Environments  
@@ -109,4 +109,4 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 
 
-Update: 02/23/2025
+Update: 02/27/2025

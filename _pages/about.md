@@ -27,6 +27,7 @@ Feel free to reach out to me if you're interested in my research. I'm looking fo
 Bernal Jiménez Gutiérrez\*, **Yiheng Shu**\*, Weijian Qi, Sizhe Zhou, Yu Su (\*: Equal Contribution)  
 [[paper](https://arxiv.org/abs/2502.14802)]
 [[code](https://github.com/OSU-NLP-Group/HippoRAG)]
+[[data](https://huggingface.co/datasets/osunlp/HippoRAG_2/tree/main)]
 
 ## Publications
 

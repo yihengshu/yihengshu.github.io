@@ -42,6 +42,7 @@ Bernal Jiménez Gutiérrez, **Yiheng Shu**, Yu Gu, Michihiro Yasunaga, Yu Su
 [[code (1.5k+ stars)](https://github.com/OSU-NLP-Group/HippoRAG/tree/legacy)]
 [[proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html)]
 [[poster](https://neurips.cc/virtual/2024/poster/94043)]
+[[BibTex](https://proceedings.neurips.cc/paper_files/paper/25031-/bibtex)]
 - **[EMNLP'24]** Middleware for LLMs: Tools Are Instrumental for Language Agents in Complex Environments  
 Yu Gu, **Yiheng Shu**, Hao Yu, Xiao Liu, Yuxiao Dong, Jie Tang, Jayanth Srinivasa, Hugo Latapie, Yu Su  
 [[paper](https://arxiv.org/abs/2402.14672)]
@@ -110,4 +111,4 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 
 
-Update: 02/27/2025
+Update: 02/28/2025

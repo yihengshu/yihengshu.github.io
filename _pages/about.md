@@ -15,7 +15,7 @@ My research explores retrieval-augmented generation (RAG) and advanced language 
 I received my Master degree from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and Bachelor degree from [Northeastern University (CN)](http://sc.neu.edu.cn/english/main.htm) in 2020. 
 I was research intern at [MSRA](https://www.msra.cn/) in 2022.
 
-Feel free to reach out to me if you're interested in my research. I'm looking for 2025 summer internship opportunities.
+Feel free to reach out to me if you're interested in my research.
 
 <!-- - Master in Computer Technology, [Nanjing University](https://www.nju.edu.cn/en/), 2020.09-2023.06, advised by [Prof. Yuzhong Qu](http://ws.nju.edu.cn/~yzqu)
 - Bachelor in Software Engineering, [Northeastern University (CN)](http://english.neu.edu.cn/), 2016.09-2020.06, advised by [Prof. Guibing Guo](https://guoguibing.github.io/) and [Prof. Gang Wu](http://faculty.neu.edu.cn/wugang/)
@@ -39,7 +39,7 @@ Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, **Yiheng Shu**, Hua
 - **[NeurIPS'24]** HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models  
 Bernal Jiménez Gutiérrez, **Yiheng Shu**, Yu Gu, Michihiro Yasunaga, Yu Su  
 [[paper](https://arxiv.org/abs/2405.14831)]
-[[code (1.6k+ stars)](https://github.com/OSU-NLP-Group/HippoRAG/tree/legacy)]
+[[code (1.8k+ stars)](https://github.com/OSU-NLP-Group/HippoRAG/tree/legacy)]
 [[proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html)]
 [[poster](https://neurips.cc/virtual/2024/poster/94043)]
 [[BibTex](https://proceedings.neurips.cc/paper_files/paper/25031-/bibtex)]
@@ -111,4 +111,4 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 
 
-Update: 02/28/2025
+Update: 03/07/2025

@@ -9,10 +9,12 @@ redirect_from:
 
 ## About Me
 
-I'm a second-year doctoral student at [The Ohio State University](https://cse.osu.edu/), advised by [Prof. Yu Su](https://ysu1989.github.io/).
+I'm a second-year doctoral student at [The Ohio State University](https://cse.osu.edu/), advised by [Prof. Yu Su](https://ysu1989.github.io/), as well as a research intern at Intuit(https://www.intuit.com/) during 2025 summer.
+
 My research explores retrieval-augmented generation (RAG) and advanced language systems. Specifically, I focus on: 1) developing efficient information retrieval approaches to enhance reasoning and long-term memory capabilities, and 2) integrating these models with complex external environments such as the Web, knowledge graphs, and databases.
 
-I received my Master degree from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and Bachelor degree from [Northeastern University (CN)](http://sc.neu.edu.cn/english/main.htm) in 2020. 
+I received my Master degree from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and Bachelor degree from [Northeastern University (CN)](http://sc.neu.edu.cn/english/main.htm) in 2020.
+
 I was research intern at [MSRA](https://www.msra.cn/) in 2022.
 
 Feel free to reach out to me if you're interested in my research.
@@ -103,9 +105,9 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 
 ## Services
 
-- Conference reviewer: [ARR'25](https://aclrollingreview.org/) ([ACL'25](https://2025.aclweb.org/)), [ARR'24](https://aclrollingreview.org/) ([ACL'24](https://2024.aclweb.org/), [EMNLP'24](https://2024.emnlp.org/), [NAACL'25](https://2025.naacl.org))
+- Conference reviewer: [NeurIPS'25](https://neurips.cc/), [ARR'25](https://aclrollingreview.org/) (ACL'25, EMNLP'25), [ARR'24](https://aclrollingreview.org/) (ACL'24, EMNLP'24, NAACL'24)
 - Workshop reviewer: [WiNLP'24](https://www.winlp.org/winlp-2024-workshop/), [ICLR'25 Reasoning and Planning for LLMs](https://workshop-llm-reasoning-planning.github.io/)
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 
 
-Update: 05/01/2025
+Update: 06/15/2025

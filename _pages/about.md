@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
-I'm a second-year doctoral student at [The Ohio State University](https://cse.osu.edu/), advised by [Prof. Yu Su](https://ysu1989.github.io/), as well as a research intern at Intuit(https://www.intuit.com/) during 2025 summer.
+I'm a second-year doctoral student at [The Ohio State University](https://cse.osu.edu/), advised by [Prof. Yu Su](https://ysu1989.github.io/), as well as a research intern at [Intuit](https://www.intuit.com/) during 2025 summer.
 
 My research explores retrieval-augmented generation (RAG) and advanced language systems. Specifically, I focus on: 1) developing efficient information retrieval approaches to enhance reasoning and long-term memory capabilities, and 2) integrating these models with complex external environments such as the Web, knowledge graphs, and databases.
 

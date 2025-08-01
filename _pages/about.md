@@ -23,6 +23,13 @@ Feel free to reach out to me if you're interested in my research.
 - Bachelor in Software Engineering, [Northeastern University (CN)](http://english.neu.edu.cn/), 2016.09-2020.06, advised by [Prof. Guibing Guo](https://guoguibing.github.io/) and [Prof. Gang Wu](http://faculty.neu.edu.cn/wugang/)
 - Full-time Research Intern, [Microsoft Research Asia](https://www.msra.cn/), 2022.02-2023.02, advised by researcher [Zhiwei Yu](https://www.microsoft.com/en-us/research/people/zhiwyu/) -->
 
+## Preprint
+
+- **[arXiv]** Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge  
+Boyu Gou*, Zanming Huang*, Yuting Ning*, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, Botao Yu, Bernal Jiménez Gutiérrez, **Yiheng Shu**, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su  
+[[paper](https://arxiv.org/abs/2506.21506)]
+[[project](https://osu-nlp-group.github.io/Mind2Web-2/)]
+
 ## Publications
 
 - **[ICML'25]** From RAG to Memory: Non-Parametric Continual Learning for Large Language Model  
@@ -105,9 +112,10 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 
 ## Services
 
+- Program committee: [AAAI'26](https://aaai.org/conference/aaai/aaai-26/)
 - Conference reviewer: [NeurIPS'25](https://neurips.cc/), [ARR'25](https://aclrollingreview.org/) (ACL'25, EMNLP'25), [ARR'24](https://aclrollingreview.org/) (ACL'24, EMNLP'24, NAACL'24)
 - Workshop reviewer: [WiNLP'24](https://www.winlp.org/winlp-2024-workshop/), [ICLR'25 Reasoning and Planning for LLMs](https://workshop-llm-reasoning-planning.github.io/)
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 
 
-Update: 06/15/2025
+Update: 08/01/2025

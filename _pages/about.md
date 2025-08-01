@@ -26,7 +26,7 @@ Feel free to reach out to me if you're interested in my research.
 ## Preprint
 
 - **[arXiv]** Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge  
-Boyu Gou\*, Zanming Huang\*, Yuting Ning\*, [et al](https://arxiv.org/abs/2506.21506)  
+Boyu Gou\*, Zanming Huang\*, Yuting Ning\*, [...](https://arxiv.org/abs/2506.21506), Huan Sun, Yu Su  
 [[paper](https://arxiv.org/abs/2506.21506)]
 [[project](https://osu-nlp-group.github.io/Mind2Web-2/)]
 

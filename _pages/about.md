@@ -9,13 +9,12 @@ redirect_from:
 
 ## About Me
 
-I'm a second-year doctoral student at [The Ohio State University](https://cse.osu.edu/), advised by [Prof. Yu Su](https://ysu1989.github.io/), as well as a research intern at [Intuit](https://www.intuit.com/) during 2025 summer.
+I'm a doctoral student at [The Ohio State University](https://cse.osu.edu/) since 2023, advised by [Prof. Yu Su](https://ysu1989.github.io/).
 
-My research explores retrieval-augmented generation (RAG) and advanced language systems. Specifically, I focus on: 1) developing efficient information retrieval approaches to enhance reasoning and long-term memory capabilities, and 2) integrating these models with complex external environments such as the Web, knowledge graphs, and databases.
+My research explores retrieval-augmented generation (RAG) and memory for language agents. Specifically, I focus on: 1) developing efficient information retrieval approaches to enhance reasoning and long-term memory capabilities, and 2) integrating these models with complex external environments such as the Web, knowledge graphs, and databases.
 
 I received my Master degree from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and Bachelor degree from [Northeastern University (CN)](http://sc.neu.edu.cn/english/main.htm) in 2020.
-
-I was research intern at [MSRA](https://www.msra.cn/) in 2022.
+I was research intern at [Intuit](https://www.intuit.com/ai/research/) in 2025 and at [Microsoft Research Asia](https://www.msra.cn/) in 2022.
 
 Feel free to reach out to me if you're interested in my research.
 

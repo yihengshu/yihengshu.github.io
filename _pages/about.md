@@ -22,15 +22,12 @@ Feel free to reach out to me if you're interested in my research.
 - Bachelor in Software Engineering, [Northeastern University (CN)](http://english.neu.edu.cn/), 2016.09-2020.06, advised by [Prof. Guibing Guo](https://guoguibing.github.io/) and [Prof. Gang Wu](http://faculty.neu.edu.cn/wugang/)
 - Full-time Research Intern, [Microsoft Research Asia](https://www.msra.cn/), 2022.02-2023.02, advised by researcher [Zhiwei Yu](https://www.microsoft.com/en-us/research/people/zhiwyu/) -->
 
-## Preprint
+## Publications
 
-- **[arXiv]** Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge  
+- **[NeurIPS'25]** Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge  
 Boyu Gou\*, Zanming Huang\*, Yuting Ning\*, [...](https://arxiv.org/abs/2506.21506), Huan Sun, Yu Su  
 [[paper](https://arxiv.org/abs/2506.21506)]
 [[project](https://osu-nlp-group.github.io/Mind2Web-2/)]
-
-## Publications
-
 - **[ICML'25]** From RAG to Memory: Non-Parametric Continual Learning for Large Language Model  
 Bernal Jiménez Gutiérrez\*, **Yiheng Shu**\*, Weijian Qi, Sizhe Zhou, Yu Su (\*: Equal Contribution)  
 [[paper](https://arxiv.org/abs/2502.14802)]

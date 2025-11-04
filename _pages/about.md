@@ -33,6 +33,7 @@ Bernal Jiménez Gutiérrez\*, **Yiheng Shu**\*, Weijian Qi, Sizhe Zhou, Yu Su (\
 [[paper](https://arxiv.org/abs/2502.14802)]
 [[code](https://github.com/OSU-NLP-Group/HippoRAG)]
 [[data](https://huggingface.co/datasets/osunlp/HippoRAG_2/tree/main)]
+[[talk](https://paperclub.aitinkerers.org/p/join-our-paper-club-with-ohio-state-from-rag-to-memory-non-parametric-continual-learning-for-large-language-models)]
 - **[ICLR'25 Oral]** Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents  
 Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, **Yiheng Shu**, Huan Sun, Yu Su  
 [[paper](https://arxiv.org/abs/2410.05243)]
@@ -114,4 +115,4 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 
 
-Update: 08/01/2025
+Update: Nov. 4, 2025

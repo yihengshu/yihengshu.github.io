@@ -31,7 +31,7 @@ Boyu Gou\*, Zanming Huang\*, Yuting Ning\*, [...](https://arxiv.org/abs/2506.215
 - **[ICML'25]** From RAG to Memory: Non-Parametric Continual Learning for Large Language Model  
 Bernal Jiménez Gutiérrez\*, **Yiheng Shu**\*, Weijian Qi, Sizhe Zhou, Yu Su (\*: Equal Contribution)  
 [[paper](https://arxiv.org/abs/2502.14802)]
-[[code](https://github.com/OSU-NLP-Group/HippoRAG)]
+[[code (3k stars)](https://github.com/OSU-NLP-Group/HippoRAG)]
 [[data](https://huggingface.co/datasets/osunlp/HippoRAG_2/tree/main)]
 [[talk](https://paperclub.aitinkerers.org/p/join-our-paper-club-with-ohio-state-from-rag-to-memory-non-parametric-continual-learning-for-large-language-models)]
 - **[ICLR'25 Oral]** Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents  
@@ -42,7 +42,7 @@ Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, **Yiheng Shu**, Hua
 - **[NeurIPS'24]** HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models  
 Bernal Jiménez Gutiérrez, **Yiheng Shu**, Yu Gu, Michihiro Yasunaga, Yu Su  
 [[paper](https://arxiv.org/abs/2405.14831)]
-[[code (2k+ stars)](https://github.com/OSU-NLP-Group/HippoRAG/tree/legacy)]
+[[code](https://github.com/OSU-NLP-Group/HippoRAG/tree/legacy)]
 [[proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html)]
 [[poster](https://neurips.cc/virtual/2024/poster/94043)]
 [[BibTex](https://proceedings.neurips.cc/paper_files/paper/25031-/bibtex)]
@@ -115,4 +115,4 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 
 
-Update: Nov. 4, 2025
+Update: Nov. 21, 2025

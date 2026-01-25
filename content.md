@@ -22,34 +22,44 @@ Feel free to reach out to me if you’re interested in my research.
 *: Equal Contribution
 
 - **[NeurIPS’25]** Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge  
-Boyu Gou*, Zanming Huang*, Yuting Ning*, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, Botao Yu, Bernal Jiménez Gutiérrez, **Yiheng Shu**, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su [[paper](https://arxiv.org/abs/2506.21506)] [[project](https://osu-nlp-group.github.io/Mind2Web-2/)]
+Boyu Gou*, Zanming Huang*, Yuting Ning*, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, Botao Yu, Bernal Jiménez Gutiérrez, **Yiheng Shu**, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su  
+[[paper](https://arxiv.org/abs/2506.21506)] [[project](https://osu-nlp-group.github.io/Mind2Web-2/)]
 
 - **[ICML’25]** From RAG to Memory: Non-Parametric Continual Learning for Large Language Model  
-Bernal Jiménez Gutiérrez*, **Yiheng Shu**\*, Weijian Qi, Sizhe Zhou, Yu Su [[paper](https://arxiv.org/abs/2502.14802)] [[code (3k stars)](https://github.com/OSU-NLP-Group/HippoRAG)] [[data](https://huggingface.co/datasets/osunlp/HippoRAG_2/tree/main)] [[talk](https://paperclub.aitinkerers.org/p/join-our-paper-club-with-ohio-state-from-rag-to-memory-non-parametric-continual-learning-for-large-language-models)]
+Bernal Jiménez Gutiérrez*, **Yiheng Shu**\*, Weijian Qi, Sizhe Zhou, Yu Su  
+[[paper](https://arxiv.org/abs/2502.14802)] [[code (3k stars)](https://github.com/OSU-NLP-Group/HippoRAG)] [[data](https://huggingface.co/datasets/osunlp/HippoRAG_2/tree/main)] [[talk](https://paperclub.aitinkerers.org/p/join-our-paper-club-with-ohio-state-from-rag-to-memory-non-parametric-continual-learning-for-large-language-models)]
 
 - **[ICLR’25 Oral]** Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents  
-Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, **Yiheng Shu**, Huan Sun, Yu Su [[paper](https://arxiv.org/abs/2410.05243)] [[code](https://github.com/OSU-NLP-Group/UGround)] [[home](https://osu-nlp-group.github.io/UGround/)]
+Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, **Yiheng Shu**, Huan Sun, Yu Su  
+ [[paper](https://arxiv.org/abs/2410.05243)] [[code](https://github.com/OSU-NLP-Group/UGround)] [[home](https://osu-nlp-group.github.io/UGround/)]
 
 - **[NeurIPS’24]** HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models  
-Bernal Jiménez Gutiérrez, **Yiheng Shu**, Yu Gu, Michihiro Yasunaga, Yu Su [[paper](https://arxiv.org/abs/2405.14831)] [[code](https://github.com/OSU-NLP-Group/HippoRAG/tree/legacy)] [[proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html)] [[poster](https://neurips.cc/virtual/2024/poster/94043)] [[BibTex](https://proceedings.neurips.cc/paper_files/paper/25031-/bibtex)]
+Bernal Jiménez Gutiérrez, **Yiheng Shu**, Yu Gu, Michihiro Yasunaga, Yu Su  
+[[paper](https://arxiv.org/abs/2405.14831)] [[code](https://github.com/OSU-NLP-Group/HippoRAG/tree/legacy)] [[proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html)] [[poster](https://neurips.cc/virtual/2024/poster/94043)] [[BibTex](https://proceedings.neurips.cc/paper_files/paper/25031-/bibtex)]
 
 - **[EMNLP’24]** Middleware for LLMs: Tools Are Instrumental for Language Agents in Complex Environments  
-Yu Gu, **Yiheng Shu**, Hao Yu, Xiao Liu, Yuxiao Dong, Jie Tang, Jayanth Srinivasa, Hugo Latapie, Yu Su [[paper](https://arxiv.org/abs/2402.14672)] [[code](https://github.com/OSU-NLP-Group/Fuxi)] [[benchmark](https://huggingface.co/datasets/osunlp/KBQA-Agent)] [[proceedings](https://aclanthology.org/2024.emnlp-main.436/)] [[BibTeX](https://aclanthology.org/2024.emnlp-main.436.bib)]
+Yu Gu, **Yiheng Shu**, Hao Yu, Xiao Liu, Yuxiao Dong, Jie Tang, Jayanth Srinivasa, Hugo Latapie, Yu Su  
+[[paper](https://arxiv.org/abs/2402.14672)] [[code](https://github.com/OSU-NLP-Group/Fuxi)] [[benchmark](https://huggingface.co/datasets/osunlp/KBQA-Agent)] [[proceedings](https://aclanthology.org/2024.emnlp-main.436/)] [[BibTeX](https://aclanthology.org/2024.emnlp-main.436.bib)]
 
 - **[EACL’24 SRW]** Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases  
-**Yiheng Shu**, Zhiwei Yu [[paper](https://arxiv.org/abs/2309.08345)] [[code](https://github.com/yhshu/Distribution-Shifts-for-KBQA)] [[data](https://huggingface.co/datasets/yhshu/TIARA-GAIN/tree/main)] [[poster](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-02-11/4f13myd/EACL%202024%20SRW%20poster.pdf)] [[video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-02-11/6103mrr/EACL%202024%20SRW%20slides.mp4)] [[proceedings](https://aclanthology.org/2024.eacl-srw.7/)] [[BibTeX](https://aclanthology.org/2024.eacl-srw.7.bib)]
+**Yiheng Shu**, Zhiwei Yu  
+[[paper](https://arxiv.org/abs/2309.08345)] [[code](https://github.com/yhshu/Distribution-Shifts-for-KBQA)] [[data](https://huggingface.co/datasets/yhshu/TIARA-GAIN/tree/main)] [[poster](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-02-11/4f13myd/EACL%202024%20SRW%20poster.pdf)] [[video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-02-11/6103mrr/EACL%202024%20SRW%20slides.mp4)] [[proceedings](https://aclanthology.org/2024.eacl-srw.7/)] [[BibTeX](https://aclanthology.org/2024.eacl-srw.7.bib)]
 
 - **[AAAI’23]** Question Decomposition Tree for Answering Complex Questions over Knowledge Bases  
-Xiang Huang, Sitao Cheng, **Yiheng Shu**, Yuheng Bao, Yuzhong Qu [[paper](https://arxiv.org/abs/2306.07597)] [[code](https://github.com/cdhx/QDTQA)] [[proceedings](https://ojs.aaai.org/index.php/AAAI/article/view/26519/26291)] [[BibTeX](https://dblp.org/rec/conf/aaai/HuangCSBQ23.html?view=bibtex)]
+Xiang Huang, Sitao Cheng, **Yiheng Shu**, Yuheng Bao, Yuzhong Qu  
+[[paper](https://arxiv.org/abs/2306.07597)] [[code](https://github.com/cdhx/QDTQA)] [[proceedings](https://ojs.aaai.org/index.php/AAAI/article/view/26519/26291)] [[BibTeX](https://dblp.org/rec/conf/aaai/HuangCSBQ23.html?view=bibtex)]
 
 - **[EMNLP’22]** TIARA: Multi-grained Retrieval for Robust Question Answering over Large Knowledge Base  
-**Yiheng Shu**, Zhiwei Yu, Yuhan Li, Börje F. Karlsson, Tingting Ma, Yuzhong Qu, Chin-Yew Lin [[paper](https://arxiv.org/abs/2210.12925)] [[code](https://github.com/microsoft/KC/tree/main/papers/TIARA)] [[data](https://drive.google.com/file/d/171vTwW-tO4_5DdEzlYljj2-M3YHvegYF/view?usp=sharing)] [[poster](https://yihengshu.github.io/files/EMNLP22poster.pdf)] [[slides](https://yihengshu.github.io/files/EMNLP22slides.pdf)] [[video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-11-04/fr03tjr/EMNLP22.mp4)] [[proceedings](https://aclanthology.org/2022.emnlp-main.555/)] [[BibTeX](https://aclanthology.org/2022.emnlp-main.555.bib)]
+**Yiheng Shu**, Zhiwei Yu, Yuhan Li, Börje F. Karlsson, Tingting Ma, Yuzhong Qu, Chin-Yew Lin  
+[[paper](https://arxiv.org/abs/2210.12925)] [[code](https://github.com/microsoft/KC/tree/main/papers/TIARA)] [[data](https://drive.google.com/file/d/171vTwW-tO4_5DdEzlYljj2-M3YHvegYF/view?usp=sharing)] [[poster](https://yihengshu.github.io/files/EMNLP22poster.pdf)] [[slides](https://yihengshu.github.io/files/EMNLP22slides.pdf)] [[video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-11-04/fr03tjr/EMNLP22.mp4)] [[proceedings](https://aclanthology.org/2022.emnlp-main.555/)] [[BibTeX](https://aclanthology.org/2022.emnlp-main.555.bib)]
 
-- **[COLING’22]** Logical Form Generation via Multi-task Learning for Complex Question Answering over Knowledge Bases    
-Xixin Hu, Xuan Wu, **Yiheng Shu**, Yuzhong Qu [[paper](https://aclanthology.org/2022.coling-1.145.pdf)] [[code](https://github.com/HXX97/GMT-KBQA)] [[slides](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-09-23/ff53s0y/1216_GMTKBQA_presentation.pdf)] [[video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-09-23/8y23sus/1216_GMTKBQA_video.mp4)] [[proceedings](https://aclanthology.org/2022.coling-1.145/)] [[BibTeX](https://aclanthology.org/2022.coling-1.145.bib)]
+- **[COLING’22]** Logical Form Generation via Multi-task Learning for Complex Question Answering over Knowledge Bases  
+Xixin Hu, Xuan Wu, **Yiheng Shu**, Yuzhong Qu  
+[[paper](https://aclanthology.org/2022.coling-1.145.pdf)] [[code](https://github.com/HXX97/GMT-KBQA)] [[slides](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-09-23/ff53s0y/1216_GMTKBQA_presentation.pdf)] [[video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2022-09-23/8y23sus/1216_GMTKBQA_video.mp4)] [[proceedings](https://aclanthology.org/2022.coling-1.145/)] [[BibTeX](https://aclanthology.org/2022.coling-1.145.bib)]
 
 - **[ISWC’21]** EDG-based Question Decomposition for Complex Question Answering over Knowledge Bases  
-Xixin Hu, **Yiheng Shu**, Xiang Huang, Yuzhong Qu [[paper](https://www.researchgate.net/profile/Xixin-Hu/publication/354925951_EDG-Based_Question_Decomposition_for_Complex_Question_Answering_over_Knowledge_Bases/links/63023efae3c7de4c3472860d/EDG-Based-Question-Decomposition-for-Complex-Question-Answering-over-Knowledge-Bases.pdf)] [[code](http://github.com/HXX97/EDGQA)] [[home](http://edgqa.github.io)] [[video](http://videolectures.net/iswc2021_1a_question_decomposition/)] [[proceedings](https://link.springer.com/chapter/10.1007/978-3-030-88361-4_8)] [[BibTeX](https://dblp.org/rec/conf/semweb/HuSHQ21.html?view=bibtex)]
+Xixin Hu, **Yiheng Shu**, Xiang Huang, Yuzhong Qu  
+[[paper](https://www.researchgate.net/profile/Xixin-Hu/publication/354925951_EDG-Based_Question_Decomposition_for_Complex_Question_Answering_over_Knowledge_Bases/links/63023efae3c7de4c3472860d/EDG-Based-Question-Decomposition-for-Complex-Question-Answering-over-Knowledge-Bases.pdf)] [[code](http://github.com/HXX97/EDGQA)] [[home](http://edgqa.github.io)] [[video](http://videolectures.net/iswc2021_1a_question_decomposition/)] [[proceedings](https://link.springer.com/chapter/10.1007/978-3-030-88361-4_8)] [[BibTeX](https://dblp.org/rec/conf/semweb/HuSHQ21.html?view=bibtex)]
 
 - **[TOIS’20]** Deep Learning for Sequential Recommendation: Algorithms, Influential Factors, and Evaluations  
 Hui Fang, Danning Zhang, **Yiheng Shu**, Guibing Guo  

@@ -23,15 +23,15 @@ Feel free to reach out to me if you’re interested in my research.
 
 - **[NeurIPS’25]** Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge  
 Boyu Gou*, Zanming Huang*, Yuting Ning*, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, Botao Yu, Bernal Jiménez Gutiérrez, **Yiheng Shu**, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su  
-[[paper](https://arxiv.org/abs/2506.21506)] [[project](https://osu-nlp-group.github.io/Mind2Web-2/)]
+[[paper](https://arxiv.org/abs/2506.21506)] [[project](https://osu-nlp-group.github.io/Mind2Web-2/)] [[BibTex](https://dblp.org/rec/journals/corr/abs-2506-21506.html?view=bibtex)]
 
 - **[ICML’25]** From RAG to Memory: Non-Parametric Continual Learning for Large Language Model  
 Bernal Jiménez Gutiérrez*, **Yiheng Shu**\*, Weijian Qi, Sizhe Zhou, Yu Su  
-[[paper](https://arxiv.org/abs/2502.14802)] [[code (3k stars)](https://github.com/OSU-NLP-Group/HippoRAG)] [[data](https://huggingface.co/datasets/osunlp/HippoRAG_2/tree/main)] [[talk](https://paperclub.aitinkerers.org/p/join-our-paper-club-with-ohio-state-from-rag-to-memory-non-parametric-continual-learning-for-large-language-models)]
+[[paper](https://arxiv.org/abs/2502.14802)] [[code (3k stars)](https://github.com/OSU-NLP-Group/HippoRAG)] [[data](https://huggingface.co/datasets/osunlp/HippoRAG_2/tree/main)] [[poster](https://icml.cc/media/PosterPDFs/ICML%202025/45585.png?t=1752374674.436611)] [[talk](https://paperclub.aitinkerers.org/p/join-our-paper-club-with-ohio-state-from-rag-to-memory-non-parametric-continual-learning-for-large-language-models)] [[BibTex](https://dblp.org/rec/conf/icml/GutierrezSQZ025.html?view=bibtex)]
 
 - **[ICLR’25 Oral]** Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents  
 Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, **Yiheng Shu**, Huan Sun, Yu Su  
- [[paper](https://arxiv.org/abs/2410.05243)] [[code](https://github.com/OSU-NLP-Group/UGround)] [[home](https://osu-nlp-group.github.io/UGround/)]
+ [[paper](https://arxiv.org/abs/2410.05243)] [[code](https://github.com/OSU-NLP-Group/UGround)] [[home](https://osu-nlp-group.github.io/UGround/)] [[poster](https://iclr.cc/media/iclr-2025/Slides/32062.pdf)] [[BibTex](https://dblp.org/rec/conf/iclr/GouWZXCS0025.html?view=bibtex)]
 
 - **[NeurIPS’24]** HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models  
 Bernal Jiménez Gutiérrez, **Yiheng Shu**, Yu Gu, Michihiro Yasunaga, Yu Su  

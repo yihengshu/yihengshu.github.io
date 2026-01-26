@@ -22,7 +22,7 @@ Feel free to reach out to me if you’re interested in my research.
 *: Equal Contribution
 
 - **[ICLR'26]** REMem: Reasoning with Episodic Memory in Language Agent  
-Yiheng Shu, Saisri Padmaja Jonnalagedda, Xiang Gao, Bernal Jiménez Gutiérrez, Weijian Qi, Kamalika Das, Huan Sun, Yu Su  
+**Yiheng Shu**, Saisri Padmaja Jonnalagedda, Xiang Gao, Bernal Jiménez Gutiérrez, Weijian Qi, Kamalika Das, Huan Sun, Yu Su  
 [paper] [code]
 
 - **[NeurIPS’25]** Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge  

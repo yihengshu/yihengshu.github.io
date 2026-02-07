@@ -1,7 +1,9 @@
 const mdTarget = document.getElementById("md");
-const themeButtons = document.querySelectorAll(".theme-toggle button");
+const themeButtonList = Array.from(document.querySelectorAll(".theme-toggle button"));
+const navActionsTarget = document.getElementById("glassNavActions");
 const THEME_KEY = "theme";
 const VALID_THEMES = new Set(["light", "dark", "auto"]);
+const SCROLL_THRESHOLD = 18;
 
 function getStoredPreference() {
   const saved = localStorage.getItem(THEME_KEY);
@@ -31,9 +33,10 @@ function applyTheme(theme) {
 }
 
 function updateThemeButtons(preference) {
-  themeButtons.forEach((btn) => {
+  themeButtonList.forEach((btn) => {
     const active = btn.dataset.theme === preference;
-    btn.setAttribute("aria-pressed", String(active));
+    btn.setAttribute("aria-checked", String(active));
+    btn.tabIndex = active ? 0 : -1;
   });
 }
 
@@ -61,20 +64,63 @@ function applyThemeByLocalTime() {
   applyThemeByPreference(preference);
 }
 
+function updateScrollState() {
+  const y = window.scrollY || window.pageYOffset || 0;
+  document.body.classList.toggle("is-scrolled", y > SCROLL_THRESHOLD);
+}
+
+function syncProfileLinksToTopBar() {
+  if (!navActionsTarget) {
+    return;
+  }
+  navActionsTarget.replaceChildren();
+  const profile = mdTarget.querySelector(".profile-links");
+  if (!profile) {
+    return;
+  }
+  const linkCluster = profile.querySelector(".link-cluster");
+  if (!linkCluster) {
+    return;
+  }
+  const anchors = linkCluster.querySelectorAll("a.link-chip");
+  anchors.forEach((anchor) => {
+    const link = anchor.cloneNode(true);
+    link.classList.add("link-chip", "icon-only", "nav-icon-chip");
+    navActionsTarget.append(link);
+  });
+  linkCluster.remove();
+  if (!profile.querySelector("a")) {
+    profile.remove();
+  }
+}
+
+function forceLinksOpenInNewTab(root) {
+  if (!root) return;
+  root.querySelectorAll("a[href]").forEach((link) => {
+    const href = link.getAttribute("href");
+    if (!href || href.startsWith("#") || href.toLowerCase().startsWith("javascript:")) return;
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener noreferrer");
+  });
+}
+
 async function loadMarkdown() {
   try {
-    const response = await fetch("content.md", { cache: "no-cache" });
+    const response = await fetch("content.md", { cache: "no-store" });
     if (!response.ok) {
       throw new Error("Failed to load markdown");
     }
     const markdown = await response.text();
     mdTarget.innerHTML = window.marked ? window.marked.parse(markdown) : markdown;
+    forceLinksOpenInNewTab(mdTarget);
+    syncProfileLinksToTopBar();
+    forceLinksOpenInNewTab(navActionsTarget);
   } catch (error) {
     mdTarget.innerHTML = "<p>Unable to load content.</p>";
   }
 }
 
-themeButtons.forEach((btn) => {
+themeButtonList.forEach((btn) => {
   btn.addEventListener("click", () => setThemePreference(btn.dataset.theme));
 });
 
@@ -91,5 +137,8 @@ if (systemThemeQuery?.addEventListener) {
   });
 }
 
+window.addEventListener("scroll", updateScrollState, { passive: true });
+window.addEventListener("resize", updateScrollState, { passive: true });
 applyThemeByLocalTime();
+updateScrollState();
 loadMarkdown();

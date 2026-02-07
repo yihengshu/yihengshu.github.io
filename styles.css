@@ -255,11 +255,30 @@ body.is-scrolled .glass-nav {
 }
 
 .theme-toggle button .theme-icon {
-  width: 1.1em;
-  justify-content: center;
-  margin-right: 0;
-  font-size: 1.02em;
-  opacity: 0.9;
+  width: 19px;
+  height: 19px;
+  display: block;
+  margin: 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0.92;
+}
+
+.theme-toggle button[data-theme="auto"] .theme-icon circle {
+  fill: currentColor;
+  opacity: 0.15;
+}
+
+.theme-toggle button[data-theme="auto"][aria-checked="true"] .theme-icon circle {
+  opacity: 0.22;
+}
+
+.theme-toggle button[data-theme="auto"] .theme-icon path {
+  fill: currentColor;
+  stroke: none;
 }
 
 .theme-toggle button:hover { background: color-mix(in srgb, var(--chip-hover) 78%, transparent); }
@@ -375,6 +394,23 @@ a.contact-item:hover { color: var(--text); background: var(--chip-hover); }
   .theme-toggle button { flex: 1 1 0; text-align: center; }
   .avatar { float: none; display: block; margin: 0 auto 16px; }
   .link-cluster, .contact-inline { gap: 8px; }
+}
+
+@media (max-width: 430px) {
+  .glass-nav-actions {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 4px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .glass-nav-actions .nav-icon-chip {
+    width: auto;
+    min-width: 0;
+    flex: 0 0 calc((100% - 28px) / 8);
+    height: 42px;
+    min-height: 42px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

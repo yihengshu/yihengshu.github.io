@@ -15,6 +15,7 @@
   --blur-lg: 26px;
   --blur-md: 18px;
   --nav-h: 58px;
+  --brand-w: 186px;
   --theme-toggle-w: 186px;
 }
 
@@ -117,7 +118,27 @@ body::after {
   justify-content: center;
 }
 
-.glass-nav-balance { display: none; }
+.glass-nav-brand {
+  display: none;
+  font-family: "Source Serif 4", "Iowan Old Style", "Times New Roman", serif;
+  font-size: 1.15rem;
+  font-weight: 680;
+  letter-spacing: 0.02em;
+  color: color-mix(in srgb, var(--text) 90%, white 10%);
+  text-shadow: 0 1px 10px color-mix(in srgb, var(--accent) 18%, transparent);
+  opacity: 0;
+  transform: translateX(-6px);
+  pointer-events: none;
+  white-space: nowrap;
+  justify-self: start;
+  padding-left: 8px;
+  transition: opacity 180ms ease, transform 180ms ease, color 180ms ease;
+}
+
+.glass-nav-brand.is-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
 
 .glass-nav-actions .nav-icon-chip {
   width: 44px;
@@ -228,6 +249,19 @@ body.is-scrolled .glass-nav {
   transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
 }
 
+.theme-toggle button span {
+  display: inline-flex;
+  align-items: center;
+}
+
+.theme-toggle button .theme-icon {
+  width: 1.1em;
+  justify-content: center;
+  margin-right: 0;
+  font-size: 1.02em;
+  opacity: 0.9;
+}
+
 .theme-toggle button:hover { background: color-mix(in srgb, var(--chip-hover) 78%, transparent); }
 
 .theme-toggle button[aria-checked="true"] {
@@ -322,11 +356,11 @@ a.contact-item:hover { color: var(--text); background: var(--chip-hover); }
 @media (min-width: 901px) {
   .glass-nav {
     display: grid;
-    grid-template-columns: var(--theme-toggle-w) 1fr var(--theme-toggle-w);
+    grid-template-columns: var(--brand-w) 1fr var(--theme-toggle-w);
     align-items: center;
     gap: 10px;
   }
-  .glass-nav-balance { display: block; width: var(--theme-toggle-w); height: 1px; }
+  .glass-nav-brand { display: block; width: var(--brand-w); }
   .glass-nav-actions { justify-self: center; width: 100%; flex: 0 1 auto; }
   .theme-toggle { justify-self: end; margin-left: 0; width: var(--theme-toggle-w); justify-content: space-between; }
   .theme-toggle button { flex: 1 1 0; padding-left: 0; padding-right: 0; text-align: center; }

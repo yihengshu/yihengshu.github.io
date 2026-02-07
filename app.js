@@ -1,9 +1,33 @@
 const mdTarget = document.getElementById("md");
 const themeButtonList = Array.from(document.querySelectorAll(".theme-toggle button"));
 const navActionsTarget = document.getElementById("glassNavActions");
+const navBrand = document.getElementById("glassNavBrand");
+const navWrap = document.querySelector(".glass-nav-wrap");
+const mainCard = document.querySelector(".md");
 const THEME_KEY = "theme";
 const VALID_THEMES = new Set(["light", "dark", "auto"]);
 const SCROLL_THRESHOLD = 18;
+let hasScrolledDown = false;
+let lastScrollY = window.scrollY || window.pageYOffset || 0;
+
+function isNavOverlayingMainCard() {
+  if (!mainCard) {
+    return false;
+  }
+  const navBottom = navWrap ? navWrap.getBoundingClientRect().bottom : 0;
+  const mainRect = mainCard.getBoundingClientRect();
+  return mainRect.top <= navBottom - 2;
+}
+
+function updateNavBrandVisibility() {
+  if (!navBrand) {
+    return;
+  }
+  const y = window.scrollY || window.pageYOffset || 0;
+  const visible = hasScrolledDown && y > SCROLL_THRESHOLD && isNavOverlayingMainCard();
+  navBrand.classList.toggle("is-visible", visible);
+  navBrand.setAttribute("aria-hidden", String(!visible));
+}
 
 function getStoredPreference() {
   const saved = localStorage.getItem(THEME_KEY);
@@ -66,7 +90,12 @@ function applyThemeByLocalTime() {
 
 function updateScrollState() {
   const y = window.scrollY || window.pageYOffset || 0;
+  if (y > lastScrollY + 1) {
+    hasScrolledDown = true;
+  }
+  lastScrollY = y;
   document.body.classList.toggle("is-scrolled", y > SCROLL_THRESHOLD);
+  updateNavBrandVisibility();
 }
 
 function syncProfileLinksToTopBar() {

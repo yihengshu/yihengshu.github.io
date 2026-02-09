@@ -100,7 +100,7 @@ I’m a doctoral student at [The Ohio State University](https://cse.osu.edu/) si
 
 My research explores retrieval-augmented generation (RAG) and memory for language agents. Specifically, I focus on: 1) developing efficient information retrieval approaches to enhance reasoning and long-term memory capabilities [[HippoRAG](https://arxiv.org/abs/2405.14831)] [[HippoRAG 2](https://arxiv.org/abs/2502.14802)] [REMem], and 2) integrating these models with complex external environments such as the Web, knowledge graphs [[TIARA](https://arxiv.org/abs/2210.12925)], and databases [[Middleware](https://arxiv.org/abs/2402.14672)].
 
-I received my Master degree from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and Bachelor degree from [Northeastern University (CN)](http://sc.neu.edu.cn/english/main.htm) in 2020. I was research intern at [Intuit](https://www.intuit.com/ai/research/) in 2025 and at [Microsoft Research Asia](https://www.msra.cn/) in 2022.
+I received my Master degree from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and Bachelor degree from [Northeastern University (China)](http://sc.neu.edu.cn/english/main.htm) in 2020. I was research intern at [Intuit](https://www.intuit.com/ai/research/) in 2025 and at [Microsoft Research Asia](https://www.msra.cn/) in 2022.
 
 Feel free to reach out to me if you’re interested in my research.
 

@@ -110,7 +110,7 @@ Feel free to reach out to me if you’re interested in my research.
 
 - **[ICLR'26]** REMem: Reasoning with Episodic Memory in Language Agent  
 **Yiheng Shu**, Saisri Padmaja Jonnalagedda, Xiang Gao, Bernal Jiménez Gutiérrez, Weijian Qi, Kamalika Das, Huan Sun, Yu Su  
-[[paper](https://openreview.net/forum?id=fugnQxbvMm&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions))] [code]
+[[paper](https://arxiv.org/abs/2602.13530)] [code]
 
 - **[NeurIPS'25]** Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge  
 Boyu Gou*, Zanming Huang*, Yuting Ning*, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, Botao Yu, Bernal Jiménez Gutiérrez, **Yiheng Shu**, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su  

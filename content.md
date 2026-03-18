@@ -96,11 +96,11 @@
 
 ## About Me
 
-I’m a doctoral student at [The Ohio State University](https://cse.osu.edu/) since 2023, advised by [Prof. Yu Su](https://ysu1989.github.io/).
+I’m a doctoral student at [The Ohio State University](https://cse.osu.edu/) since 2023, advised by [Prof. Yu Su](https://ysu1989.github.io/). During 2026 summer, I will be a research intern at [Google](https://research.google/).
 
 My research explores retrieval-augmented generation (RAG) and memory for language agents. Specifically, I focus on: 1) developing efficient information retrieval approaches to enhance reasoning and long-term memory capabilities [[HippoRAG](https://arxiv.org/abs/2405.14831)] [[HippoRAG 2](https://arxiv.org/abs/2502.14802)] [[REMem](https://arxiv.org/abs/2602.13530)], and 2) integrating these models with complex external environments such as the Web, knowledge graphs [[TIARA](https://arxiv.org/abs/2210.12925)], and databases [[Middleware](https://arxiv.org/abs/2402.14672)].
 
-I received my Master degree from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and Bachelor degree from [Northeastern University (China)](http://sc.neu.edu.cn/english/main.htm) in 2020. I was research intern at [Intuit](https://www.intuit.com/ai/research/) in 2025 and at [Microsoft Research Asia](https://www.msra.cn/) in 2022.
+I received my Master degree from [Nanjing University](https://www.nju.edu.cn/en/) in 2023 and Bachelor degree from [Northeastern University (China)](http://sc.neu.edu.cn/english/main.htm) in 2020. I was a research intern at [Intuit](https://www.intuit.com/ai/research/) during 2025 summer. I spent a year as a research intern at [Microsoft Research Asia](https://www.msra.cn/) in 2022.
 
 Feel free to reach out to me if you’re interested in my research.
 
@@ -197,4 +197,4 @@ I serve as a member of MLNLP, a large AI community in China. Our recent works in
 - [MLNLP/NLP-Course-Chinese](https://github.com/MLNLP-World/NLP-Course-Chinese) for translated NLP Blogs
 - [MLNLP/AI-Paper-Collector](https://github.com/MLNLP-World/AI-Paper-Collector) for collecting AI-related papers -->
 
-Last update: Feb 20, 2026
+Last update: Mar. 18, 2026

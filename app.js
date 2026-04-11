@@ -135,7 +135,7 @@ function forceLinksOpenInNewTab(root) {
 
 async function loadMarkdown() {
   try {
-    const response = await fetch("content.md", { cache: "no-store" });
+    const response = await fetch("content.generated.md", { cache: "no-store" });
     if (!response.ok) {
       throw new Error("Failed to load markdown");
     }

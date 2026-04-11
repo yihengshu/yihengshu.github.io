@@ -7,6 +7,9 @@ const mainCard = document.querySelector(".md");
 const THEME_KEY = "theme";
 const VALID_THEMES = new Set(["light", "dark", "auto"]);
 const SCROLL_THRESHOLD = 18;
+const GITHUB_OWNER = "yihengshu";
+const GITHUB_REPO = "yihengshu.github.io";
+const GITHUB_CONTENT_PATH = "content.md";
 let hasScrolledDown = false;
 let lastScrollY = window.scrollY || window.pageYOffset || 0;
 
@@ -133,14 +136,32 @@ function forceLinksOpenInNewTab(root) {
   });
 }
 
+function formatLastUpdated(dateString) {
+  const date = new Date(dateString);
+  if (Number.isNaN(date.getTime())) {
+    return null;
+  }
+  return new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "America/New_York" }).format(date).replace(/(\w{3}) /, "$1. ");
+}
+
+async function fetchLastUpdatedFromGitHub() {
+  const response = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/commits?path=${encodeURIComponent(GITHUB_CONTENT_PATH)}&per_page=1`, { headers: { Accept: "application/vnd.github+json" } });
+  if (!response.ok) {
+    throw new Error("Failed to load GitHub commit metadata.");
+  }
+  const commits = await response.json();
+  return formatLastUpdated(commits?.[0]?.commit?.committer?.date || "");
+}
+
 async function loadMarkdown() {
   try {
-    const response = await fetch("content.generated.md", { cache: "no-store" });
-    if (!response.ok) {
+    const [markdownResponse, lastUpdated] = await Promise.all([fetch("content.md", { cache: "no-store" }), fetchLastUpdatedFromGitHub()]);
+    if (!markdownResponse.ok) {
       throw new Error("Failed to load markdown");
     }
-    const markdown = await response.text();
-    mdTarget.innerHTML = window.marked ? window.marked.parse(markdown) : markdown;
+    const markdown = await markdownResponse.text();
+    const renderedMarkdown = markdown.replace("{{LAST_UPDATED}}", lastUpdated || "Unavailable");
+    mdTarget.innerHTML = window.marked ? window.marked.parse(renderedMarkdown) : renderedMarkdown;
     forceLinksOpenInNewTab(mdTarget);
     syncProfileLinksToTopBar();
     forceLinksOpenInNewTab(navActionsTarget);

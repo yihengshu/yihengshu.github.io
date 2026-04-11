@@ -155,12 +155,20 @@ async function fetchLastUpdatedFromGitHub() {
 
 async function loadMarkdown() {
   try {
-    const [markdownResponse, lastUpdated] = await Promise.all([fetch("content.md", { cache: "no-store" }), fetchLastUpdatedFromGitHub()]);
+    const markdownResponse = await fetch("content.md", { cache: "no-store" });
     if (!markdownResponse.ok) {
       throw new Error("Failed to load markdown");
     }
     const markdown = await markdownResponse.text();
-    const renderedMarkdown = markdown.replace("{{LAST_UPDATED}}", lastUpdated || "Unavailable");
+    let renderedMarkdown = markdown;
+    try {
+      const lastUpdated = await fetchLastUpdatedFromGitHub();
+      if (lastUpdated) {
+        renderedMarkdown = markdown.replace("{{LAST_UPDATED}}", lastUpdated);
+      }
+    } catch (error) {
+      console.warn("Unable to replace last updated with the latest GitHub commit date.", error);
+    }
     mdTarget.innerHTML = window.marked ? window.marked.parse(renderedMarkdown) : renderedMarkdown;
     forceLinksOpenInNewTab(mdTarget);
     syncProfileLinksToTopBar();

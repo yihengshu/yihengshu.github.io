@@ -451,15 +451,3 @@ a.contact-item:hover { color: var(--text); background: var(--chip-hover); }
   0%, 100% { transform: translate3d(0, 0, 0) skewX(18deg); }
   50% { transform: translate3d(-1.2vw, 1vh, 0) skewX(18deg); }
 }
-
-.llm-note {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}

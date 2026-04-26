@@ -359,15 +359,26 @@ a.contact-item:hover { color: var(--text); background: var(--chip-hover); }
 
 .link-chip .icon { color: var(--muted); }
 
-.md a:not(.link-chip):not(.contact-item) {
+.md a:not(.link-chip):not(.contact-item):not(.heading-link) {
   color: color-mix(in srgb, var(--accent) 82%, var(--text) 18%);
   text-decoration: none;
   transition: color 130ms ease;
 }
 
-.md a:not(.link-chip):not(.contact-item):hover {
+.md a:not(.link-chip):not(.contact-item):not(.heading-link):hover {
   color: color-mix(in srgb, var(--accent) 92%, white 8%);
   text-decoration: none;
+}
+
+.md h1 a.heading-link, .md h2 a.heading-link, .md h3 a.heading-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.md h1 a.heading-link:focus-visible, .md h2 a.heading-link:focus-visible, .md h3 a.heading-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+  border-radius: 4px;
 }
 
 .md ul { padding-left: 22px; }

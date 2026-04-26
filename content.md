@@ -104,7 +104,7 @@ I received my Master degree from [Nanjing University](https://www.nju.edu.cn/en/
 
 Feel free to reach out to me if you’re interested in my research.
 
-## Publications
+## <a class="heading-link" href="https://scholar.google.com/citations?user=H63aXLcAAAAJ&hl=en">Publications</a>
 
 *: Equal Contribution
 

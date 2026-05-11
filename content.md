@@ -96,7 +96,7 @@
 
 ## About Me
 
-I’m a doctoral student at [The Ohio State University](https://cse.osu.edu/) since 2023, advised by [Prof. Yu Su](https://ysu1989.github.io/). During 2026 summer, I will be a research intern at [Google](https://research.google/).
+I’m a doctoral student at [The Ohio State University](https://cse.osu.edu/) since 2023, advised by [Prof. Yu Su](https://ysu1989.github.io/). During 2026 summer, I'm also a research intern at [Google](https://research.google/).
 
 My research explores retrieval-augmented generation (RAG) and memory for language agents. Specifically, I focus on: 1) developing efficient information retrieval approaches to enhance reasoning and long-term memory capabilities [[HippoRAG](https://arxiv.org/abs/2405.14831)] [[HippoRAG 2](https://arxiv.org/abs/2502.14802)] [[REMem](https://arxiv.org/abs/2602.13530)], and 2) integrating these models with complex external environments such as the Web, knowledge graphs [[TIARA](https://arxiv.org/abs/2210.12925)], and databases [[Middleware](https://arxiv.org/abs/2402.14672)].
 

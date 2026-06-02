@@ -104,6 +104,12 @@ I received my Master degree from [Nanjing University](https://www.nju.edu.cn/en/
 
 Feel free to reach out to me if you’re interested in my research.
 
+## Preprint
+
+- AgentCL: Toward Rigorous Evaluation of Continual Learning in Language Agents  
+**Yiheng Shu**, Bernal Jiménez Gutiérrez, Saisri Padmaja Jonnalagedda, Yuguang Yao, Huan Sun, Yu Su  
+[[paper](https://arxiv.org/abs/2606.02461)] [[data](https://huggingface.co/datasets/osunlp/AgentCL)]
+
 ## <a class="heading-link" href="https://scholar.google.com/citations?user=H63aXLcAAAAJ&hl=en">Publications</a>
 
 *: Equal Contribution

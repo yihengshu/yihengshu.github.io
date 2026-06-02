@@ -11,7 +11,7 @@
           <circle cx="12" cy="10" r="2.6"></circle>
         </svg>
       </span>
-      <span>Columbus, OH</span>
+      <span>Mountain View, CA</span>
     </a>
     <a class="contact-item" href="mailto:shu.251@osu.edu" aria-label="Email shu.251@osu.edu">
       <span class="icon" aria-hidden="true">

@@ -141,7 +141,11 @@ function formatLastUpdated(dateString) {
   if (Number.isNaN(date.getTime())) {
     return null;
   }
-  return new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "America/New_York" }).format(date).replace(/(\w{3}) /, "$1. ");
+  const dateOptions = { day: "numeric", year: "numeric", timeZone: "America/New_York" };
+  const shortMonth = new Intl.DateTimeFormat("en-US", { month: "short", timeZone: dateOptions.timeZone }).format(date);
+  const fullMonth = new Intl.DateTimeFormat("en-US", { month: "long", timeZone: dateOptions.timeZone }).format(date);
+  const formattedDate = new Intl.DateTimeFormat("en-US", { ...dateOptions, month: "short" }).format(date);
+  return shortMonth === fullMonth ? formattedDate : formattedDate.replace(shortMonth, `${shortMonth}.`);
 }
 
 async function fetchLastUpdatedFromGitHub() {

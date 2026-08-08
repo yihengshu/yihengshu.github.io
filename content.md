@@ -120,7 +120,7 @@ Feel free to reach out to me if you’re interested in my research.
 
 - **[NeurIPS'25]** Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge  
 Boyu Gou*, Zanming Huang*, Yuting Ning*, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, Botao Yu, Bernal Jiménez Gutiérrez, **Yiheng Shu**, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su  
-[[paper](https://arxiv.org/abs/2506.21506)] [[project](https://osu-nlp-group.github.io/Mind2Web-2/)] [[BibTex](https://dblp.org/rec/journals/corr/abs-2506-21506.html?view=bibtex)]
+[[paper](https://arxiv.org/abs/2506.21506)] [[project](https://osu-nlp-group.github.io/Mind2Web-2/)] [[BibTex](https://dblp.org/rec/journals/corr/abs-2506-21506.html?view=bibtex)] [[Workshop](https://icml.cc/virtual/2025/49778)]
 
 - **[ICML'25]** From RAG to Memory: Non-Parametric Continual Learning for Large Language Model  
 Bernal Jiménez Gutiérrez*, **Yiheng Shu**\*, Weijian Qi, Sizhe Zhou, Yu Su  

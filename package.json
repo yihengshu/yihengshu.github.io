@@ -1,0 +1,16 @@
+{
+  "name": "yihengshu-github-io",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "check": "node --check app.js && node --check scripts/site-utils.mjs && node --check scripts/build-site.mjs && node --check scripts/check-site.mjs && node scripts/check-site.mjs"
+  },
+  "devDependencies": {
+    "marked": "15.0.12"
+  }
+}

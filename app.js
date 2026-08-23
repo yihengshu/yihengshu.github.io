@@ -1,17 +1,23 @@
-const mdTarget = document.getElementById("md");
-const themeButtonList = Array.from(document.querySelectorAll(".theme-toggle button"));
-const navActionsTarget = document.getElementById("glassNavActions");
+const themeToggle = document.querySelector(".theme-toggle");
+const themeButtonList = Array.from(themeToggle ? themeToggle.querySelectorAll("button[data-theme]") : []);
 const navBrand = document.getElementById("glassNavBrand");
 const navWrap = document.querySelector(".glass-nav-wrap");
 const mainCard = document.querySelector(".md");
 const THEME_KEY = "theme";
 const VALID_THEMES = new Set(["light", "dark", "auto"]);
 const SCROLL_THRESHOLD = 18;
-const GITHUB_OWNER = "yihengshu";
-const GITHUB_REPO = "yihengshu.github.io";
-const GITHUB_CONTENT_PATH = "content.md";
-let hasScrolledDown = false;
-let lastScrollY = window.scrollY || window.pageYOffset || 0;
+const systemThemeQuery = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+
+function getScrollY() {
+  return window.scrollY ?? window.pageYOffset ?? 0;
+}
+
+let currentThemePreference = "auto";
+let themeStorageAvailable = true;
+let lastScrollY = getScrollY();
+let hasScrolledDown = lastScrollY > SCROLL_THRESHOLD;
+let pendingScrollFrame = null;
+let navBrandVisible = null;
 
 function isNavOverlayingMainCard() {
   if (!mainCard) {
@@ -22,30 +28,56 @@ function isNavOverlayingMainCard() {
   return mainRect.top <= navBottom - 2;
 }
 
-function updateNavBrandVisibility() {
+function updateNavBrandVisibility(y) {
   if (!navBrand) {
     return;
   }
-  const y = window.scrollY || window.pageYOffset || 0;
   const visible = hasScrolledDown && y > SCROLL_THRESHOLD && isNavOverlayingMainCard();
+  if (visible === navBrandVisible) {
+    return;
+  }
+  navBrandVisible = visible;
   navBrand.classList.toggle("is-visible", visible);
   navBrand.setAttribute("aria-hidden", String(!visible));
 }
 
+function disableThemeStorage(error) {
+  if (!themeStorageAvailable) {
+    return;
+  }
+  themeStorageAvailable = false;
+  console.warn("Theme preference storage is unavailable; the selection will last for this page only.", error);
+}
+
 function getStoredPreference() {
-  const saved = localStorage.getItem(THEME_KEY);
-  return VALID_THEMES.has(saved) ? saved : null;
+  if (!themeStorageAvailable) {
+    return null;
+  }
+  try {
+    const saved = window.localStorage.getItem(THEME_KEY);
+    return VALID_THEMES.has(saved) ? saved : null;
+  } catch (error) {
+    disableThemeStorage(error);
+    return null;
+  }
+}
+
+function persistThemePreference(preference) {
+  if (!themeStorageAvailable) {
+    return;
+  }
+  try {
+    window.localStorage.setItem(THEME_KEY, preference);
+  } catch (error) {
+    disableThemeStorage(error);
+  }
 }
 
 function getSystemTheme() {
-  if (!window.matchMedia) {
+  if (typeof systemThemeQuery?.matches !== "boolean") {
     return null;
   }
-  const mq = window.matchMedia("(prefers-color-scheme: dark)");
-  if (typeof mq.matches !== "boolean") {
-    return null;
-  }
-  return mq.matches ? "dark" : "light";
+  return systemThemeQuery.matches ? "dark" : "light";
 }
 
 function getThemeByLocalTime() {
@@ -55,15 +87,14 @@ function getThemeByLocalTime() {
 }
 
 function applyTheme(theme) {
-  const isDark = theme === "dark";
-  document.documentElement.classList.toggle("theme-dark", isDark);
+  document.documentElement.classList.toggle("theme-dark", theme === "dark");
 }
 
 function updateThemeButtons(preference) {
-  themeButtonList.forEach((btn) => {
-    const active = btn.dataset.theme === preference;
-    btn.setAttribute("aria-checked", String(active));
-    btn.tabIndex = active ? 0 : -1;
+  themeButtonList.forEach((button) => {
+    const active = button.dataset.theme === preference;
+    button.setAttribute("aria-checked", String(active));
+    button.tabIndex = active ? 0 : -1;
   });
 }
 
@@ -75,132 +106,128 @@ function resolveTheme(preference) {
 }
 
 function applyThemeByPreference(preference) {
-  const resolved = resolveTheme(preference);
-  applyTheme(resolved);
+  applyTheme(resolveTheme(preference));
   updateThemeButtons(preference);
 }
 
-function setThemePreference(preference) {
+function setThemePreference(preference, { persist = true } = {}) {
   const safePreference = VALID_THEMES.has(preference) ? preference : "auto";
-  localStorage.setItem(THEME_KEY, safePreference);
+  currentThemePreference = safePreference;
   applyThemeByPreference(safePreference);
+  if (persist) {
+    persistThemePreference(safePreference);
+  }
 }
 
-function applyThemeByLocalTime() {
-  const preference = getStoredPreference() ?? "auto";
-  applyThemeByPreference(preference);
+function initializeTheme() {
+  setThemePreference(getStoredPreference() ?? "auto", { persist: false });
+}
+
+function handleThemeKeydown(event) {
+  if (event.altKey || event.ctrlKey || event.metaKey || !(event.target instanceof Element)) {
+    return;
+  }
+  const button = event.target.closest("button[data-theme]");
+  const currentIndex = themeButtonList.indexOf(button);
+  if (currentIndex < 0) {
+    return;
+  }
+
+  let nextIndex = null;
+  if (event.key === "ArrowRight" || event.key === "ArrowDown") {
+    nextIndex = (currentIndex + 1) % themeButtonList.length;
+  } else if (event.key === "ArrowLeft" || event.key === "ArrowUp") {
+    nextIndex = (currentIndex - 1 + themeButtonList.length) % themeButtonList.length;
+  } else if (event.key === "Home") {
+    nextIndex = 0;
+  } else if (event.key === "End") {
+    nextIndex = themeButtonList.length - 1;
+  }
+  if (nextIndex === null) {
+    return;
+  }
+
+  event.preventDefault();
+  const nextButton = themeButtonList[nextIndex];
+  setThemePreference(nextButton.dataset.theme);
+  nextButton.focus();
+}
+
+function enhanceExternalLinks(root) {
+  root.querySelectorAll("a[href]").forEach((link) => {
+    const rawHref = link.getAttribute("href");
+    let url;
+    try {
+      url = new URL(rawHref, document.baseURI);
+    } catch (error) {
+      console.warn("Unable to classify link target.", rawHref, error);
+      return;
+    }
+
+    const isExternalHttp = (url.protocol === "http:" || url.protocol === "https:") && url.origin !== window.location.origin;
+    if (!isExternalHttp) {
+      return;
+    }
+    const target = link.getAttribute("target")?.trim();
+    if (target) {
+      if (target.toLowerCase() === "_blank") {
+        link.relList.add("noopener", "noreferrer");
+      }
+      return;
+    }
+    if (link.hasAttribute("download")) {
+      return;
+    }
+    link.setAttribute("target", "_blank");
+    link.relList.add("noopener", "noreferrer");
+  });
 }
 
 function updateScrollState() {
-  const y = window.scrollY || window.pageYOffset || 0;
+  const y = getScrollY();
   if (y > lastScrollY + 1) {
     hasScrolledDown = true;
   }
   lastScrollY = y;
   document.body.classList.toggle("is-scrolled", y > SCROLL_THRESHOLD);
-  updateNavBrandVisibility();
+  updateNavBrandVisibility(y);
 }
 
-function syncProfileLinksToTopBar() {
-  if (!navActionsTarget) {
+function scheduleScrollStateUpdate() {
+  if (pendingScrollFrame !== null) {
     return;
   }
-  navActionsTarget.replaceChildren();
-  const profile = mdTarget.querySelector(".profile-links");
-  if (!profile) {
-    return;
-  }
-  const linkCluster = profile.querySelector(".link-cluster");
-  if (!linkCluster) {
-    return;
-  }
-  const anchors = linkCluster.querySelectorAll("a.link-chip");
-  anchors.forEach((anchor) => {
-    const link = anchor.cloneNode(true);
-    link.classList.add("link-chip", "icon-only", "nav-icon-chip");
-    navActionsTarget.append(link);
-  });
-  linkCluster.remove();
-  if (!profile.querySelector("a")) {
-    profile.remove();
-  }
-}
-
-function forceLinksOpenInNewTab(root) {
-  if (!root) return;
-  root.querySelectorAll("a[href]").forEach((link) => {
-    const href = link.getAttribute("href");
-    if (!href || href.startsWith("#") || href.toLowerCase().startsWith("javascript:")) return;
-    link.setAttribute("target", "_blank");
-    link.setAttribute("rel", "noopener noreferrer");
+  pendingScrollFrame = requestAnimationFrame(() => {
+    pendingScrollFrame = null;
+    updateScrollState();
   });
 }
 
-function formatLastUpdated(dateString) {
-  const date = new Date(dateString);
-  if (Number.isNaN(date.getTime())) {
-    return null;
+function syncRestoredScrollState() {
+  const y = getScrollY();
+  if (y > SCROLL_THRESHOLD) {
+    hasScrolledDown = true;
   }
-  const dateOptions = { day: "numeric", year: "numeric", timeZone: "America/New_York" };
-  const shortMonth = new Intl.DateTimeFormat("en-US", { month: "short", timeZone: dateOptions.timeZone }).format(date);
-  const fullMonth = new Intl.DateTimeFormat("en-US", { month: "long", timeZone: dateOptions.timeZone }).format(date);
-  const formattedDate = new Intl.DateTimeFormat("en-US", { ...dateOptions, month: "short" }).format(date);
-  return shortMonth === fullMonth ? formattedDate : formattedDate.replace(shortMonth, `${shortMonth}.`);
+  lastScrollY = y;
+  scheduleScrollStateUpdate();
 }
 
-async function fetchLastUpdatedFromGitHub() {
-  const response = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/commits?path=${encodeURIComponent(GITHUB_CONTENT_PATH)}&per_page=1`, { headers: { Accept: "application/vnd.github+json" } });
-  if (!response.ok) {
-    throw new Error("Failed to load GitHub commit metadata.");
-  }
-  const commits = await response.json();
-  return formatLastUpdated(commits?.[0]?.commit?.committer?.date || "");
-}
-
-async function loadMarkdown() {
-  try {
-    const markdownResponse = await fetch("content.md", { cache: "no-store" });
-    if (!markdownResponse.ok) {
-      throw new Error("Failed to load markdown");
-    }
-    const markdown = await markdownResponse.text();
-    let renderedMarkdown = markdown;
-    try {
-      const lastUpdated = await fetchLastUpdatedFromGitHub();
-      if (lastUpdated) {
-        renderedMarkdown = markdown.replace("{{LAST_UPDATED}}", lastUpdated);
-      }
-    } catch (error) {
-      console.warn("Unable to replace last updated with the latest GitHub commit date.", error);
-    }
-    mdTarget.innerHTML = window.marked ? window.marked.parse(renderedMarkdown) : renderedMarkdown;
-    forceLinksOpenInNewTab(mdTarget);
-    syncProfileLinksToTopBar();
-    forceLinksOpenInNewTab(navActionsTarget);
-  } catch (error) {
-    mdTarget.innerHTML = "<p>Unable to load content.</p>";
-  }
-}
-
-themeButtonList.forEach((btn) => {
-  btn.addEventListener("click", () => setThemePreference(btn.dataset.theme));
+themeButtonList.forEach((button) => {
+  button.addEventListener("click", () => setThemePreference(button.dataset.theme));
 });
-
-const systemThemeQuery = window.matchMedia
-  ? window.matchMedia("(prefers-color-scheme: dark)")
-  : null;
+themeToggle?.addEventListener("keydown", handleThemeKeydown);
 
 if (systemThemeQuery?.addEventListener) {
   systemThemeQuery.addEventListener("change", () => {
-    const preference = getStoredPreference() ?? "auto";
-    if (preference === "auto") {
-      applyThemeByPreference(preference);
+    if (currentThemePreference === "auto") {
+      applyThemeByPreference(currentThemePreference);
     }
   });
 }
 
-window.addEventListener("scroll", updateScrollState, { passive: true });
-window.addEventListener("resize", updateScrollState, { passive: true });
-applyThemeByLocalTime();
+window.addEventListener("scroll", scheduleScrollStateUpdate, { passive: true });
+window.addEventListener("resize", scheduleScrollStateUpdate);
+window.addEventListener("pageshow", syncRestoredScrollState);
+initializeTheme();
+enhanceExternalLinks(document);
 updateScrollState();
-loadMarkdown();

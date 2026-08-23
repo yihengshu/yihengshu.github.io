@@ -212,6 +212,8 @@ body.is-scrolled .glass-nav {
 
 .md h2 { font-size: clamp(1.32rem, 2.4vw, 1.56rem); }
 
+.md h2.profile-subtitle { font-size: 1.17em; margin-bottom: 1em; }
+
 .md p { color: var(--text); }
 
 .md details > summary { cursor: pointer; list-style: none; margin: 0; }
@@ -251,11 +253,6 @@ body.is-scrolled .glass-nav {
   border-radius: 999px;
   cursor: pointer;
   transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
-}
-
-.theme-toggle button span {
-  display: inline-flex;
-  align-items: center;
 }
 
 .theme-toggle button .theme-icon {
@@ -331,8 +328,6 @@ body.is-scrolled .theme-toggle { background: color-mix(in srgb, var(--glass-fill
 a.contact-item { color: var(--muted); text-decoration: none; }
 
 a.contact-item:hover { color: var(--text); background: var(--control-surface-hover); }
-
-.link-cluster { display: flex; flex-wrap: wrap; gap: 10px; padding: 2px 0; }
 
 .link-chip {
   display: inline-flex;
@@ -411,8 +406,9 @@ a.contact-item:hover { color: var(--text); background: var(--control-surface-hov
 
 @media (max-width: 640px) {
   .page { padding: 0 12px; margin-top: 18px; }
-  .glass-nav { min-height: 52px; border-radius: 22px; }
   .glass-nav {
+    min-height: 52px;
+    border-radius: 22px;
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: center;
@@ -428,11 +424,10 @@ a.contact-item:hover { color: var(--text); background: var(--control-surface-hov
     scrollbar-width: none;
   }
   .glass-nav-actions::-webkit-scrollbar { display: none; }
-  .glass-nav-actions .nav-icon-chip { width: 44px; height: 44px; min-height: 44px; flex: 0 0 44px; }
   .theme-toggle { width: auto; justify-content: flex-end; }
   .theme-toggle button { width: 44px; padding: 0; flex: 0 0 44px; text-align: center; }
   .avatar { float: none; display: block; margin: 0 auto 16px; }
-  .link-cluster, .contact-inline { gap: 8px; }
+  .contact-inline { gap: 8px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

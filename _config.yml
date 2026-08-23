@@ -1,0 +1,11 @@
+timezone: America/New_York
+
+exclude:
+  - README.md
+  - content.md
+  - index.template.html
+  - package.json
+  - package-lock.json
+  - scripts
+  - node_modules
+  - vendor

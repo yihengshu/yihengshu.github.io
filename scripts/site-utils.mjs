@@ -4,6 +4,8 @@ import { dirname, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 export const rootDir = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+export const jekyllFrontMatter = "---\n---\n";
+export const jekyllLastUpdated = '{% assign update_month = site.time | date: "%b" %}{{ update_month }}{% unless update_month == "May" %}.{% endunless %} {{ site.time | date: "%-d, %Y" }}';
 
 export function assert(condition, message) {
   if (!condition) throw new Error(message);

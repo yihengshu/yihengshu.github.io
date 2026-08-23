@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html lang="en">
   <head>
@@ -158,7 +160,7 @@ I serve as a member of MLNLP, a large AI community in China. Our recent works in
 - [MLNLP/AI-Paper-Collector](https://github.com/MLNLP-World/AI-Paper-Collector) for collecting AI-related papers -->
 
 
-<p>Last update: Aug. 14, 2026</p></div>
+<p>Last update: {% assign update_month = site.time | date: "%b" %}{{ update_month }}{% unless update_month == "May" %}.{% endunless %} {{ site.time | date: "%-d, %Y" }}</p></div>
       </article>
     </main>
     <script src="app.js"></script>

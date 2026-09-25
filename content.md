@@ -114,7 +114,7 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 <summary><strong>Services</strong></summary>
 
 - Conference reviewer: NeurIPS'26, ARR'26, AAAI'26, ICLR'26, NeurIPS'25, ARR'25, ARR'24
-- Workshop reviewer: [WiNLP’24](https://www.winlp.org/winlp-2024-workshop/), [ICLR’25 Reasoning and Planning for LLMs](https://workshop-llm-reasoning-planning.github.io/)
+- Workshop reviewer: [ICLR’25 Reasoning and Planning for LLMs](https://workshop-llm-reasoning-planning.github.io/), [WiNLP’24](https://www.winlp.org/winlp-2024-workshop/)
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 
 </details>

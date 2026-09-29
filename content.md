@@ -68,7 +68,7 @@ Boyu Gou*, Zanming Huang*, Yuting Ning*, Yu Gu, Michael Lin, Weijian Qi, Andrei 
 
 - **[ICML'25]** From RAG to Memory: Non-Parametric Continual Learning for Large Language Model  
 Bernal Jiménez Gutiérrez*, **Yiheng Shu**\*, Weijian Qi, Sizhe Zhou, Yu Su  
-[[paper](https://arxiv.org/abs/2502.14802)] [[code (3k stars)](https://github.com/OSU-NLP-Group/HippoRAG)] [[data](https://huggingface.co/datasets/osunlp/HippoRAG_2/tree/main)] [[poster](https://icml.cc/media/PosterPDFs/ICML%202025/45585.png?t=1752374674.436611)] [[talk](https://paperclub.aitinkerers.org/p/join-our-paper-club-with-ohio-state-from-rag-to-memory-non-parametric-continual-learning-for-large-language-models)] [[BibTex](https://dblp.org/rec/conf/icml/GutierrezSQZ025.html?view=bibtex)]
+[[paper](https://arxiv.org/abs/2502.14802)] [[code (4k stars)](https://github.com/OSU-NLP-Group/HippoRAG)] [[data](https://huggingface.co/datasets/osunlp/HippoRAG_2/tree/main)] [[poster](https://icml.cc/media/PosterPDFs/ICML%202025/45585.png?t=1752374674.436611)] [[talk](https://paperclub.aitinkerers.org/p/join-our-paper-club-with-ohio-state-from-rag-to-memory-non-parametric-continual-learning-for-large-language-models)] [[BibTex](https://dblp.org/rec/conf/icml/GutierrezSQZ025.html?view=bibtex)]
 
 - **[ICLR'25 Oral]** Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents  
 Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, **Yiheng Shu**, Huan Sun, Yu Su  

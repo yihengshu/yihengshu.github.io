@@ -10,7 +10,7 @@ const contentPath = join(rootDir, "content.md");
 const contentMarker = "__CONTENT__";
 const lastUpdatedMarker = "{{LAST_UPDATED}}";
 const jekyllDateMarker = "@@JEKYLL_LAST_UPDATED@@";
-const publicFiles = ["app.js", "styles.css", "files/homepage.jpeg", "files/C.V.pdf", "files/EMNLP22poster.pdf", "files/EMNLP22slides.pdf"];
+const publicFiles = ["app.js", "styles.css", "files/homepage.jpeg", "files/C.V.pdf", "files/EMNLP22poster.pdf", "files/EMNLP22slides.pdf", "files/ICLR26_REMem_poster.png", "files/ICML25_HippoRAG2_poster.png", "files/ICLR25_UGround_poster.pdf", "files/EACL24SRW_poster.pdf", "files/COLING22_GMTKBQA_slides.pdf", "files/ICWE19_tutorial_slides.pdf"];
 
 function countOccurrences(value, marker) {
   return value.split(marker).length - 1;

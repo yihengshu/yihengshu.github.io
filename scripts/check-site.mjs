@@ -3,7 +3,7 @@ import { join, relative, sep } from "node:path";
 import { assert, formatLastUpdated, jekyllFrontMatter, jekyllLastUpdated, requireNode24, requireRegularFile, rootDir, runGit } from "./site-utils.mjs";
 
 const outputDir = join(rootDir, "_site");
-const copiedFiles = ["app.js", "styles.css", "files/homepage.jpeg", "files/C.V.pdf", "files/EMNLP22poster.pdf", "files/EMNLP22slides.pdf"];
+const copiedFiles = ["app.js", "styles.css", "files/homepage.jpeg", "files/C.V.pdf", "files/EMNLP22poster.pdf", "files/EMNLP22slides.pdf", "files/ICLR26_REMem_poster.png", "files/ICML25_HippoRAG2_poster.png", "files/ICLR25_UGround_poster.pdf", "files/EACL24SRW_poster.pdf", "files/COLING22_GMTKBQA_slides.pdf", "files/ICWE19_tutorial_slides.pdf"];
 const expectedFiles = ["index.html", ...copiedFiles].sort();
 
 async function listFiles(directory, prefix = "") {

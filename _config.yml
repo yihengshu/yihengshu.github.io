@@ -2,6 +2,7 @@ timezone: America/New_York
 
 exclude:
   - README.md
+  - files/README.md
   - content.md
   - index.template.html
   - package.json

@@ -4,15 +4,6 @@
 
 <section class="profile-links">
   <div class="contact-inline">
-    <a class="contact-item" href="https://cse.osu.edu/" target="_blank" rel="noopener noreferrer" aria-label="Columbus, OH — The Ohio State University Department of Computer Science and Engineering" title="OSU CSE">
-      <span class="icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 22s7-5.5 7-12a7 7 0 1 0-14 0c0 6.5 7 12 7 12Z"></path>
-          <circle cx="12" cy="10" r="2.6"></circle>
-        </svg>
-      </span>
-      <span>Columbus, OH</span>
-    </a>
     <a class="contact-item" href="mailto:shu.251@osu.edu" aria-label="shu.251 [at] osu.edu — email address">
       <span class="icon" aria-hidden="true">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
@@ -22,7 +13,7 @@
       </span>
       <span>shu.251 [at] osu.edu</span>
     </a>
-    <a class="contact-item" href="files/C.V.pdf" target="_blank" rel="noopener noreferrer" aria-label="CV — curriculum vitae PDF" title="CV">
+    <a class="contact-item" href="files/C.V.pdf" target="_blank" rel="noopener noreferrer" aria-label="Resume PDF" title="Resume">
       <span class="icon" aria-hidden="true">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
           <path d="M8 3.5h6l4 4V20a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 7 20V5A1.5 1.5 0 0 1 8.5 3.5Z"></path>
@@ -30,7 +21,7 @@
           <path d="M9.2 12.4h5.6M9.2 15.4h5.6"></path>
         </svg>
       </span>
-      <span>CV</span>
+      <span>Resume</span>
     </a>
   </div>
 </section>
@@ -116,6 +107,7 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 - Conference reviewer: NeurIPS'26, ARR'26, AAAI'26, ICLR'26, NeurIPS'25, ARR'25, ARR'24
 - Workshop reviewer: [ICLR’25 Reasoning and Planning for LLMs](https://workshop-llm-reasoning-planning.github.io/), [WiNLP’24](https://www.winlp.org/winlp-2024-workshop/)
 - Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
+- Community: contributor to [MLNLP Paper-Writing-Tips](https://github.com/MLNLP-World/Paper-Writing-Tips) (Chinese, 3k+ stars)
 
 </details>
 

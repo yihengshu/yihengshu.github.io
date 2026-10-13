@@ -1,4 +1,5 @@
 import { execFileSync } from "node:child_process";
+import { createHash } from "node:crypto";
 import { stat } from "node:fs/promises";
 import { dirname, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -6,6 +7,13 @@ import { fileURLToPath } from "node:url";
 export const rootDir = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 export const jekyllFrontMatter = "---\n---\n";
 export const jekyllLastUpdated = '{% assign update_month = site.time | date: "%b" %}{{ update_month }}{% unless update_month == "May" %}.{% endunless %} {{ site.time | date: "%-d, %Y" }}';
+
+// Short content hash appended to asset URLs so a new page never pairs with a cached old stylesheet or script.
+export function assetVersion(source) {
+  return createHash("sha256").update(source).digest("hex").slice(0, 10);
+}
+
+export const versionedAssets = ["styles.css", "app.js"];
 
 export function assert(condition, message) {
   if (!condition) throw new Error(message);

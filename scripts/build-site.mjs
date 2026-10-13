@@ -1,7 +1,7 @@
 import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, join, relative } from "node:path";
 import { marked } from "marked";
-import { assert, formatLastUpdated, jekyllFrontMatter, jekyllLastUpdated, requireNode24, requireRegularFile, rootDir, runGit } from "./site-utils.mjs";
+import { assert, assetVersion, formatLastUpdated, jekyllFrontMatter, jekyllLastUpdated, requireNode24, requireRegularFile, rootDir, runGit, versionedAssets } from "./site-utils.mjs";
 
 const outputDir = join(rootDir, "_site");
 const templatePath = join(rootDir, "index.template.html");
@@ -37,7 +37,14 @@ async function build() {
   assert(dirname(outputDir) === rootDir && outputDir !== rootDir, "Refusing to use an unsafe output directory.");
   assert(runGit(["rev-parse", "--is-shallow-repository"]) === "false", "A complete Git history is required; fetch with --unshallow before building.");
   await Promise.all([requireRegularFile(templatePath), requireRegularFile(contentPath)]);
-  const [template, markdownSource] = await Promise.all([readFile(templatePath, "utf8"), readFile(contentPath, "utf8")]);
+  const [templateSource, markdownSource] = await Promise.all([readFile(templatePath, "utf8"), readFile(contentPath, "utf8")]);
+  let template = templateSource;
+  for (const asset of versionedAssets) {
+    const reference = asset.endsWith(".css") ? `href="${asset}"` : `src="${asset}"`;
+    assert(countOccurrences(template, reference) === 1, `Expected exactly one ${reference} reference in index.template.html.`);
+    const version = assetVersion(await readFile(join(rootDir, asset)));
+    template = template.replace(reference, reference.replace(asset, `${asset}?v=${version}`));
+  }
   assert(countOccurrences(template, contentMarker) === 1, `Expected exactly one ${contentMarker} marker in index.template.html.`);
   assert(countOccurrences(markdownSource, lastUpdatedMarker) === 1, `Expected exactly one ${lastUpdatedMarker} marker in content.md.`);
   if (runGit(["status", "--porcelain", "--", "content.md"])) {

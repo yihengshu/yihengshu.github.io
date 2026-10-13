@@ -1,6 +1,6 @@
 import { readdir, readFile } from "node:fs/promises";
 import { join, relative, sep } from "node:path";
-import { assert, formatLastUpdated, jekyllFrontMatter, jekyllLastUpdated, requireNode24, requireRegularFile, rootDir, runGit } from "./site-utils.mjs";
+import { assert, assetVersion, formatLastUpdated, jekyllFrontMatter, jekyllLastUpdated, requireNode24, requireRegularFile, rootDir, runGit, versionedAssets } from "./site-utils.mjs";
 
 const outputDir = join(rootDir, "_site");
 const copiedFiles = ["app.js", "styles.css", "files/homepage.jpeg", "files/C.V.pdf", "files/EMNLP22poster.pdf", "files/EMNLP22slides.pdf", "files/ICLR26_REMem_poster.png", "files/ICML25_HippoRAG2_poster.png", "files/ICLR25_UGround_poster.pdf", "files/EACL24SRW_poster.pdf", "files/COLING22_GMTKBQA_slides.pdf", "files/ICWE19_tutorial_slides.pdf"];
@@ -48,7 +48,10 @@ async function check() {
   assert(indexHtml.includes("<h1>Yiheng Shu</h1>"), "Generated index.html does not contain the rendered page heading.");
   assert((indexHtml.match(/class="link-chip icon-only nav-icon-chip"/g) ?? []).length === 8, "Generated index.html must contain all eight profile links.");
   assert(indexHtml.includes('role="radio" aria-checked="true" tabindex="0" data-theme="auto"'), "The generated theme control lacks an accessible default state.");
-  assert(indexHtml.includes("<script src=\"app.js\"></script>"), "Generated index.html does not load app.js.");
+  for (const asset of versionedAssets) {
+    const version = assetVersion(await readFile(join(outputDir, asset)));
+    assert(indexHtml.includes(`${asset}?v=${version}"`), `Generated index.html does not load the current ${asset} version.`);
+  }
   assert(!appSource.includes("fetch(\"content.md\""), "Published app.js still fetches content.md at runtime.");
   assert(!appSource.includes("api.github.com"), "Published app.js still calls the GitHub API at runtime.");
   const commitDate = runGit(["log", "-1", "--format=%cI", "--", "content.md"]);

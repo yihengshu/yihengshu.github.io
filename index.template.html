@@ -47,6 +47,83 @@
         <img class="avatar" src="files/homepage.jpeg" alt="Yiheng Shu" width="1502" height="1502" decoding="async" fetchpriority="high" />
         <div id="md" class="md-body">__CONTENT__</div>
       </article>
+      <section class="featured" aria-labelledby="featuredTitle">
+        <header class="featured-head">
+          <p class="featured-kicker">Selected Work</p>
+          <h2 id="featuredTitle" class="featured-title">Memory for Language Agents</h2>
+        </header>
+        <div class="featured-grid">
+          <article class="feature-card feature-card--wide feature-agentcl">
+            <div class="feature-main">
+              <div class="feature-heading">
+                <h3 class="feature-name">AgentCL</h3>
+                <span class="feature-badge">Preprint · 2026</span>
+              </div>
+              <p class="feature-subtitle">Toward Rigorous Evaluation of Continual Learning in Language Agents</p>
+              <p class="feature-desc">Task streams that reveal when agent memory truly helps, and when it hurts.</p>
+              <div class="feature-links">
+                <a class="feature-link feature-link--primary" href="https://arxiv.org/abs/2606.02461"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3.5h6l4 4V20a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 7 20V5A1.5 1.5 0 0 1 8.5 3.5Z"></path><path d="M14 3.5V8h4"></path></svg>Paper</a>
+                <a class="feature-link" href="https://huggingface.co/datasets/osunlp/AgentCL"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="6" rx="7" ry="2.6"></ellipse><path d="M5 6v12c0 1.44 3.13 2.6 7 2.6s7-1.16 7-2.6V6"></path><path d="M5 12c0 1.44 3.13 2.6 7 2.6s7-1.16 7-2.6"></path></svg>Dataset</a>
+              </div>
+            </div>
+            <figure class="feature-visual stream-visual" aria-label="Diagram of the three AgentCL task streams">
+              <svg viewBox="0 0 300 200" role="img" aria-hidden="true">
+                <g class="stream stream-dependent">
+                  <text x="0" y="32">Dependent</text>
+                  <path class="stream-link" d="M118 44 H160 M178 44 H220 M238 44 H280"></path>
+                  <circle cx="109" cy="44" r="9"></circle><circle cx="169" cy="44" r="9"></circle><circle cx="229" cy="44" r="9"></circle><circle cx="289" cy="44" r="9"></circle>
+                </g>
+                <g class="stream stream-conventional">
+                  <text x="0" y="96">Conventional</text>
+                  <path class="stream-link stream-link--dashed" d="M118 108 H160 M178 108 H220 M238 108 H280"></path>
+                  <circle cx="109" cy="108" r="9"></circle><circle cx="169" cy="108" r="9"></circle><circle cx="229" cy="108" r="9"></circle><circle cx="289" cy="108" r="9"></circle>
+                </g>
+                <g class="stream stream-independent">
+                  <text x="0" y="160">Independent</text>
+                  <circle cx="109" cy="172" r="9"></circle><circle cx="169" cy="172" r="9"></circle><circle cx="229" cy="172" r="9"></circle><circle cx="289" cy="172" r="9"></circle>
+                </g>
+              </svg>
+              <figcaption>Knowledge reuse across a task stream</figcaption>
+            </figure>
+          </article>
+
+          <article class="feature-card feature-hipporag">
+            <div class="feature-heading">
+              <h3 class="feature-name">HippoRAG 2</h3>
+              <span class="feature-badge">ICML 2025</span>
+            </div>
+            <p class="feature-subtitle">From RAG to Memory: Non-Parametric Continual Learning for LLMs</p>
+            <dl class="feature-stats">
+              <div><dt>Associative memory</dt><dd class="feature-stat-value">+7%</dd></div>
+              <div><dt>GitHub stars</dt><dd class="feature-stat-value">4k+</dd></div>
+            </dl>
+            <div class="feature-links">
+              <a class="feature-link feature-link--primary" href="https://arxiv.org/abs/2502.14802"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3.5h6l4 4V20a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 7 20V5A1.5 1.5 0 0 1 8.5 3.5Z"></path><path d="M14 3.5V8h4"></path></svg>Paper</a>
+              <a class="feature-link" href="https://github.com/OSU-NLP-Group/HippoRAG"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 7.5 4 12l4.5 4.5M15.5 7.5 20 12l-4.5 4.5"></path></svg>Code</a>
+              <a class="feature-link" href="https://huggingface.co/datasets/osunlp/HippoRAG_2/tree/main"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="6" rx="7" ry="2.6"></ellipse><path d="M5 6v12c0 1.44 3.13 2.6 7 2.6s7-1.16 7-2.6V6"></path><path d="M5 12c0 1.44 3.13 2.6 7 2.6s7-1.16 7-2.6"></path></svg>Data</a>
+              <a class="feature-link" href="files/ICML25_HippoRAG2_poster.png"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"></rect><circle cx="9" cy="10" r="1.7"></circle><path d="m20.5 16-4.8-4.8L6 19.5"></path></svg>Poster</a>
+            </div>
+          </article>
+
+          <article class="feature-card feature-remem">
+            <div class="feature-heading">
+              <h3 class="feature-name">REMem</h3>
+              <span class="feature-badge">ICLR 2026</span>
+            </div>
+            <p class="feature-subtitle">Reasoning with Episodic Memory in Language Agents</p>
+            <dl class="feature-stats">
+              <div><dt>Episodic reasoning</dt><dd class="feature-stat-value">+13.4%</dd></div>
+              <div><dt>Episodic recollection</dt><dd class="feature-stat-value">+3.4%</dd></div>
+            </dl>
+            <div class="feature-links">
+              <a class="feature-link feature-link--primary" href="https://arxiv.org/abs/2602.13530"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3.5h6l4 4V20a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 7 20V5A1.5 1.5 0 0 1 8.5 3.5Z"></path><path d="M14 3.5V8h4"></path></svg>Paper</a>
+              <a class="feature-link" href="https://github.com/intuit-ai-research/ReMem"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 7.5 4 12l4.5 4.5M15.5 7.5 20 12l-4.5 4.5"></path></svg>Code</a>
+              <a class="feature-link" href="files/ICLR26_REMem_poster.png"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"></rect><circle cx="9" cy="10" r="1.7"></circle><path d="m20.5 16-4.8-4.8L6 19.5"></path></svg>Poster</a>
+              <a class="feature-link" href="https://recorder-v3.slideslive.com/?share=108044&amp;s=748e61a0-9310-4da9-a1ec-7090811bef65"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M10.2 8.8v6.4l5-3.2z"></path></svg>Video</a>
+            </div>
+          </article>
+        </div>
+      </section>
     </main>
     <script src="app.js"></script>
   </body>

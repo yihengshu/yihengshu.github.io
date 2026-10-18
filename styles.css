@@ -598,17 +598,6 @@ a.contact-item:hover { color: var(--text); background: var(--control-surface-hov
   letter-spacing: -0.005em;
 }
 
-.feature-subtitle {
-  margin: 6px 0 0;
-  font-family: var(--ui-font);
-  font-size: 0.95rem;
-  font-weight: 500;
-  line-height: 1.4;
-  color: var(--muted);
-}
-
-.feature-desc { margin: 14px 0 0; font-size: 1rem; line-height: 1.6; }
-
 .feature-stats {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

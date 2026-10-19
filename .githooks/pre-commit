@@ -1,0 +1,29 @@
+#!/bin/sh
+# Regenerate index.html whenever a commit touches one of its sources, so the
+# committed Jekyll source never drifts from content.md (CI checks the same).
+set -eu
+
+sources="content.md index.template.html styles.css app.js"
+
+# shellcheck disable=SC2086
+if git diff --cached --quiet -- $sources; then
+  exit 0
+fi
+
+# The build reads the working tree, so unstaged edits would leak into the
+# generated index.html without being part of this commit.
+# shellcheck disable=SC2086
+if ! git diff --quiet -- $sources; then
+  echo "pre-commit: unstaged changes in site sources ($sources)." >&2
+  echo "pre-commit: stage or stash them so index.html matches this commit." >&2
+  exit 1
+fi
+
+if node --version 2>/dev/null | grep -q '^v24\.'; then
+  node scripts/build-site.mjs
+else
+  echo "pre-commit: building index.html with Node 24 via npx..." >&2
+  npx -y node@24 scripts/build-site.mjs
+fi
+
+git add index.html

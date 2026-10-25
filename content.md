@@ -55,6 +55,7 @@ Feel free to reach out to me if you’re interested in my research.
 
 - **[EMNLP'26 Findings]** Building Long-Term LLM Memory with Neo-Davidsonian Discourse Units  
 Sizhe Zhou, Yanzhen Shen, Siru Ouyang, Yuyang Bai, **Yiheng Shu**, Yu Zhang, Jiawei Han  
+[[paper](https://yuzhimanhua.github.io/papers/emnlp26findings.pdf)]
 
 - **[ICLR'26]** REMem: Reasoning with Episodic Memory in Language Agents  
 **Yiheng Shu**, Saisri Padmaja Jonnalagedda, Xiang Gao, Bernal Jiménez Gutiérrez, Weijian Qi, Kamalika Das, Huan Sun, Yu Su  

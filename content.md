@@ -112,9 +112,10 @@ Hui Fang, Danning Zhang, Guibing Guo, **Yiheng Shu**
 <details>
 <summary><strong>Services</strong></summary>
 
-- Conference reviewer: NeurIPS'26, ARR'26, AAAI'26, ICLR'26, NeurIPS'25, ARR'25, ARR'24
-- Workshop reviewer: [ICLR’25 Reasoning and Planning for LLMs](https://workshop-llm-reasoning-planning.github.io/), [WiNLP’24](https://www.winlp.org/winlp-2024-workshop/)
-- Journal reviewer: [IEEE Trans. Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
+- Conference reviewer: NeurIPS (2025, 2026), ICLR (2026), AAAI (2026), ACL Rolling Review for ACL/EMNLP/NAACL (2024, 2025, 2026)
+- Demo track reviewer: ACL (2025), EMNLP (2024)
+- Workshop reviewer: [ICLR'25 Reasoning and Planning for LLMs](https://workshop-llm-reasoning-planning.github.io/), [WiNLP'24](https://www.winlp.org/winlp-2024-workshop/)
+- Journal reviewer: [IEEE Transactions on Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 - Community: contributor to [MLNLP Paper-Writing-Tips](https://github.com/MLNLP-World/Paper-Writing-Tips) (Chinese, 3k+ stars)
 
 </details>
